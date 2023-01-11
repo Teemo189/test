@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = '水运工程水工建筑物检测与评估技术规范'
-copyright = '人民交通出版社股份有限公司' 
+copyright = '哈尔滨工业大学' 
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -24,7 +24,7 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-# html_theme = 'sphinx_rtd_theme'
+# html_theme = 'sphinx_book_theme'
 # html_theme = "sphinxawesome_theme"
 
 html_theme = 'sphinx_book_theme'
