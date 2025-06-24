@@ -1,0 +1,1969 @@
+4 作用
+===================
+
+.. raw:: html
+
+  <h2 id="test111">4 桥作用</h2>
+
+4.1 作用分类、代表值和作用组合
+-----------------------------------
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id4.1.1"> 4.1.1</a> <span id="id4.1.1"> 公路桥涵设计采用的作用分为永久作用、可变作用、偶然作用和地震作用四类，规定于<a href="#B4.1.1">表4.1.1</a>。</span></p>
+
+
+ <style>
+     #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+      }
+      #eqzs {
+         border: 0px;
+         vertical-align: top;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.1.1">表4.1.1 作用分类</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=100px  id="dhbg">序号</td>
+		      <td  align="center" width=400px  id="dhbg">分类</td>
+			  <td  align="center" width=400px  id="dhbg">名称</td>
+             </tr>
+  		    <tr>
+          <td align="center" id="dhbg">1</td>
+          <td align="center" id="dhbg" rowspan="7">永久作用</td>
+          <td align="center" id="dhbg">结构重力（包括结构附加重力）</td>  
+		    </tr>
+  		    <tr>
+          <td align="center" id="dhbg">2</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">预加力</td>  
+		    </tr>	
+  		    <tr>
+          <td align="center" id="dhbg">3</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">土的重力</td>  
+		    </tr>	
+  		    <tr>
+          <td align="center" id="dhbg">4</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">土侧压力</td>  
+		    </tr>	
+  		    <tr>
+          <td align="center" id="dhbg">5</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">混凝土收缩、徐变作用</td>  
+		    </tr>	
+  		    <tr>
+          <td align="center" id="dhbg">6</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">水浮力</td>  
+		    </tr>	
+  		    <tr>
+          <td align="center" id="dhbg">7</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">基础币安慰作用</td>  
+		    </tr>	
+ 		    <tr>
+          <td align="center" id="dhbg">8</td>
+          <td align="center" id="dhbg" rowspan="13">可变作用</td>
+          <td align="center" id="dhbg">汽车荷载</td>  
+		    </tr>
+  		    <tr>
+          <td align="center" id="dhbg">9</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">汽车冲击力</td>  
+		    </tr>	
+  		    <tr>
+          <td align="center" id="dhbg">10</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">汽车离心力</td>  
+		    </tr>	
+  		    <tr>
+          <td align="center" id="dhbg">11</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">汽车引起的土侧压力</td>  
+		    </tr>
+  		    <tr>
+          <td align="center" id="dhbg">12</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">汽车制动力</td>  
+		    </tr>					
+  		    <tr>
+          <td align="center" id="dhbg">13</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">汽人群荷载</td>  
+		    </tr>	
+  		    <tr>
+          <td align="center" id="dhbg">14</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">疲劳荷载</td>  
+		    </tr>	
+  		    <tr>
+          <td align="center" id="dhbg">15</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">风荷载</td>  
+		    </tr>	
+  		    <tr>
+          <td align="center" id="dhbg">16</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">流水压力</td>  
+		    </tr>
+  		    <tr>
+          <td align="center" id="dhbg">17</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">冰压力</td>  
+		    </tr>	
+  		    <tr>
+          <td align="center" id="dhbg">18</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">波浪力</td>  
+		    </tr>	
+  		    <tr>
+          <td align="center" id="dhbg">19</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">温度(均匀温度和梯度温度)作用</td>  
+		    </tr>	
+  		    <tr>
+          <td align="center" id="dhbg">20</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">支座摩阻力</td>  
+		    </tr>
+		   <tr>	
+          <td align="center" id="dhbg">21</td>
+          <td align="center" id="dhbg" rowspan="3">偶然作用</td>
+          <td align="center" id="dhbg">船舶的撞击作用</td>  
+		    </tr>
+  		    <tr>
+          <td align="center" id="dhbg">22</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">漂流物的撞击作用</td>  
+		    </tr>
+  		    <tr>
+          <td align="center" id="dhbg">23</td>
+           <!-- <td></td> -->
+          <td align="center" id="dhbg">汽车撞击作用</td>  
+		    </tr>
+		   <tr>	
+          <td align="center" id="dhbg">24</td>
+          <td align="center" id="dhbg">地震作用</td>
+          <td align="center" id="dhbg">地震作用</td>  
+		    </tr>						
+
+ 		</table>       
+   <p></p>
+
+ <p style="text-align:justify"><a href="#id4.1.1"> 4.1.2</a> <span id="id4.1.2"> 公路桥涵设计时，对不同的作用应按下列规定采用不同的代表值：</span></p>
+ <ol>
+ <li>永久作用的代表值为其标准值。永久作用标准值可根据统计、计算，并结合工程经验综合分析确定。</li>
+ <li>可变作用的代表值包括标准值、组合值、频遇值和准永久值。组合值、频遇值和准永久值可通过可变作用的标准值分别乘以组合值系数<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi data-mjx-variant="-tex-mathit" mathvariant="italic">Ψ</mi></mrow><mrow><mi>c</mi></mrow></msub></math>、频遇值系数<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi data-mjx-variant="-tex-mathit" mathvariant="italic">Ψ</mi></mrow><mrow><mi>f</mi></mrow></msub></math>和准永久值系数<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi data-mjx-variant="-tex-mathit" mathvariant="italic">Ψ</mi></mrow><mrow><mi>q</mi></mrow></msub></math>，来确定。</li>
+ <li>偶然作用取其设计值作为代表值，可根据历史记载、现场观测和试验，并结合工程经验综合分析确定，也可根据有关标准的专门规定确定。</li>
+ <li>地震作用的代表值为其标准值。地震作用的标准值应根据现行《公路工程抗震规范》(JTG B02)的规定确定。</li>
+ </ol>
+
+ <p style="text-align:justify"><a href="#id4.1.3"> 4.1.3</a> <span id="id4.1.3"> 作用的设计值应为作用的标准值或组合值乘以相应的作用分项系数。</span></p>
+
+.. raw:: html
+   :file: ./_static/wellDone.html
+
+.. raw:: html
+
+ <p></p>
+ <p style="text-align:justify"><a href="#id4.1.4"> 4.1.4</a> <span id="id4.1.4"> 公路桥涵结构设计应考虑结构上可能同时出现的作用，按承载能力极限状态、正常使用极限状态进行作用组合，均应按下列原则取其最不利组合效应进行设计：</span></p>
+
+ <ol>
+ <li>有在结构上可能同时出现的作用，才进行组合。当结构或结构构件需做不同受力方向的验算时，则应以不同方向的最不利的作用组合效应进行计算。</li>
+ <li>可变作用的出现对结构或结构构件产生有利影响时，该作用不应参与组合。实际不可能同时出现的作用或同时参与组合概率很小的作用，按<a href="#B4.1.4">表4.1.4</a>规定不考虑其参与组合。</li>
+ </ol>
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.1.5">表4.1.4 可变作用不同时组合表</b></caption>	
+              
+		    <tr>
+		      <td  align="center"  width=350px  id="dhbg">作用名称</td>
+		      <td  align="center"  width=550px  id="dhbg">不与该作用同时参与组合的作用</td>
+			</tr>
+  		    <tr>
+          <td align="center" id="dhbg">汽车制动力</td>
+          <td align="center" id="dhbg">流水压力、冰压力、波浪力、支座摩阻力</td>
+		    </tr>
+  		    <tr>
+          <td align="center" id="dhbg">流水压力</td>
+          <td align="center" id="dhbg">汽车制动力、冰压力、波浪力</td>
+		    </tr>
+  		    <tr>
+          <td align="center" id="dhbg">波浪力</td>
+          <td align="center" id="dhbg">汽车制动力，流水压力、冰压力</td>
+		    </tr>
+  		    <tr>
+          <td align="center" id="dhbg">冰压力</td>
+          <td align="center" id="dhbg">汽车制动力、流水压力、波浪力</td>
+		    </tr>
+  		    <tr>
+          <td align="center" id="dhbg">支座摩阻力</td>
+          <td align="center" id="dhbg">汽车制动力</td>
+		    </tr>									  		   
+ 		</table>       
+   <p></p>
+
+ <ol start="3">
+ <li>施工阶段的作用组合，应按计算需要及结构所处条件而定，结构上的施工人员和施工机具设备均应作为可变作用加以考虑。组合式桥梁，当把底梁作为施工支撑时，作用组合效应宜分两个阶段计算，底梁受荷为第一个阶段，组合梁受荷为第二个阶段。</li>
+ <li>个偶然作用不同时参与组合。</li>
+ <li>震作用不与偶然作用同时参与组合。</li>
+ </ol>
+
+ <p style="text-align:justify"><a href="#id4.1.5"> 4.1.5</a> <span id="id4.1.5"> 公路桥涵结构按承载能力极限状态设计时，对持久设计状况和短暂设计状况应采用作用的基本组合，对偶然设计状况应采用作用的偶然组合，对地震设计状况应采用作用的地震组合，并应符合下列规定：</span></p>
+ 
+ <ol >
+ <li> 基本组合：永久作用设计值与可变作用设计值相组合。</li>
+ </ol>
+
+ <p style="text-align:justify;text-indent:2em;" > 1）作用基本组合的效应设计值可按下式计算：</p>
+
+$$S_{\\mathrm{ud} }=\\gamma _{0}S(\\sum_{i=1}^{\\mathrm{m} }\\gamma _{G_{i}}G_{i\\mathrm{k} },\\gamma _{Q_{1}}\\gamma _{L} Q_{1\\mathrm{k} },\\psi  _{C}\\sum_{j=2}^{\\mathrm{n} }\\gamma _{\\mathrm{L} j}\\gamma _{Q_{j}}Q_{j\\mathrm{k} })\\tag{4.1.5-1}$$
+
+$$或\\hspace{4cm}S_{\\mathrm{ud} }=\\gamma _{0}S(\\sum_{i=1}^{\\mathrm{m} }G_{i\\mathrm{d} }, Q_{1\\mathrm{d} },\\sum_{j=2}^{\\mathrm{n} }Q_{j\\mathrm{d} })\\tag{4.1.5-2}$$
+ 
+.. raw:: html
+
+  <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="50px" align='right'  id="eqzs" ><i>S</i><sub>ud</sub></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 承载能力极限状态下作用基本组合的效应设计值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>S</i>()</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">用组合的效应函数；</td>
+  </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>γ</i><sub>0</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构重要性系数，按<a href="#B4.1.5.1">表4.1.5-1</a>规定的结构设计安全等级采用，按持久状况和短暂状况承载能力极限状态设计时，公路桥涵结构设计安全等级应不低于<a href="#B4.1.5.1">表4.1.5-1</a>的规定，对应于设计安全等级一级、二级和三级分别取1.1、1.0和0.9；</td>
+  </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>γ</i><sub>G<sub>i</sub></sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">第<i>i</i>个永久作用的分项系数，应按<a href="#B4.1.5.2">表4.1.5-2</a>的规定采用；</td>
+  </tr>    
+  <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>γ</i><sub>ik</sub>、<i>γ</i><sub>id</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">第<i>i</i>个永久作用的标准值和设计值；</td>
+  </tr>  
+  <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>γ</i><sub>Q<sub>1</sub></sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">汽车荷载(含汽车冲击力、离心力)的分项系数。采用车道荷载计算时取<i>γ</i><sub>Q<sub>1</sub></sub>=1.4，采用车辆荷载计算时，其分项系数取<i>γ</i><sub>Q<sub>1</sub></sub>=1.8。当某个可变作用在组合中其效应值超过汽车荷载效应时，则该作用取代汽车荷载，其分项系数取<i>γ</i><sub>Q<sub>1</sub></sub>=1.4；对专为承受某作用而设置的结构或装置，设计时该作用的分项系数取<i>γ</i><sub>Q<sub>1</sub></sub>=1.4；计算人行道板和人行道栏杆的局部荷载，其分项系数也取<i>γ</i><sub>Q<sub>1</sub></sub>=1.4；</td>
+  </tr> 
+  <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>Q</i><sub>1k</sub>、<i>Q</i><sub>1d</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">汽车荷载(含汽车冲击力、离心力)的标准值和设计值；</td>
+  </tr>  
+  <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>γ</i><sub>Q<sub>j</sub></sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">在作用组合中除汽车荷载(含汽车冲击力、离心力)风荷载外的其他第<i>j</i>个可变作用的分项系数，取<i>γ</i><sub>Q<sub>j</sub></sub>=1.4,但风荷载的分项系数取<i>γ</i><sub>Q<sub>j</sub></sub>=1.1;</td>
+  </tr> 
+  <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>Q</i><sub>jk</sub>、<i>Q</i><sub>jd</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">在作用组合中除汽车荷载(含汽车冲击力、离心力)外的其他第<i>j</i>个可变作用的标准值和设计值；</td>
+  </tr>   
+  <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>Ψ</i><sub>c</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">在作用组合中除汽车荷载(含汽车冲击力、离心力)外的其他可变作用的组合值系数，<i>Ψ</i><sub>c</sub>=0.75;</td>
+  </tr> 
+  <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>Ψ</i><sub>c</sub><i>Q</i><sub>jk</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">在作用组合中除汽车荷载(含汽车冲击力、离心力)外的第<i>j</i>个可变作用的组合值;</td>
+  </tr> 
+  <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>γ</i><sub>Lj</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">第<i>j</i>个可变作用的结构设计使用年限荷载调整系数。公路桥涵结构的设计使用年限按现行《公路工程技术标准》(JTG B01)取值时，可变作用的设计使用年限荷载调整系数取<i>γ</i><sub>Lj</sub>=1.0；否则，<i>γ</i><sub>Lj</sub>取值应按专题研究确定。</td>
+  </tr>
+ </table>  
+ <p></p>
+ <p style="text-align:justify;text-indent:2em;" > 2) 当作用与作用效应可按线性关系考虑时，作用基本组合的效应设计值<i>S</i><sub>ud</sub>可通过作用效应代数相加计算。</p>
+
+ <p style="text-align:justify;text-indent:2em;" > 3) 设计弯桥时，当离心力与制动力同时参与组合时，制动力标准值或设计值按70%取用。</p>
+
+ <ol start="2">
+ <li> 偶然组合：永久作用标准值与可变作用某种代表值、一种偶然作用设计值相组合；与偶然作用同时出现的可变作用，可根据观测资料和工程经验取用频遇值或准永久值。</li>
+ </ol>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.1.5.1">表4.1.5-1 公路桥涵结构设计安全等级</b></caption>	
+              
+		  <tr>
+		  <td  align="center"  width=200px  id="dhbg">设计安全等级</td>
+		  <td  align="center"  width=200px  id="dhbg">破坏后果</td>  
+		  <td  align="center"  width=500px  id="dhbg">适用对象</td>
+		  </tr>
+  		  <tr>
+          <td align="center" id="dhbg">一级</td>
+		  <td align="center" id="dhbg">很严重</td>
+          <td align="left" id="dhbg">(1)各等级公路，上的特大析.大桥、中桥；<br/>(2)商速公路、一级公路、二级公路、国防公路及城市附近交通繁忙公路上的小桥</td>
+		  </tr>
+  		  <tr>
+          <td align="center" id="dhbg">二级</td>
+		  <td align="center" id="dhbg">严重</td>
+          <td align="left" id="dhbg">(1)三、四级公路上的小桥；<br/>(2)高速公路，一级公路、二级公路、国防公路及城市附近交通繁们公路上的涵洞</td>
+		  </tr>
+  		  <tr>
+          <td align="center" id="dhbg">三级</td>
+		  <td align="center" id="dhbg">不严重</td>
+          <td align="left" id="dhbg">三、四级公路上的涵洞</td>
+		  </tr>		    		  		  		   
+ 		</table>       
+   <p style="text-indent:2em;" ><font size="2">注：本表所列特大、大、中桥等系按本规范<a href="https://jtg-d60.readthedocs.io/zh/latest/01.html#B1.0.5">表1.0.5</a>中的单孔跨径确定，对多跨不等跨桥梁，以其中最大跨径为准。</font></p>
+
+
+
+
+   		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.1.5.2">表4.1.5-2 永久作用的分项系数</b></caption>	
+              
+		    <tr>
+		    <td  align="center"  width=60px rowspan="2" id="dhbg">序号</td>
+		    <td  align="center"  colspan="2" rowspan="2" id="dhbg">作用类别</td>
+			<!-- <td></td> -->
+		    <td  align="center"  colspan="2" id="dhbg">永久作用分项系数</td>	
+		    <!-- <td></td> -->
+			</tr>
+			<tr>
+			<!-- <td></td> -->
+			<!-- <td></td> -->
+			<!-- <td></td> -->
+			<td  align="center"  width=200px id="dhbg">对结构的承载能力不利时</td>
+			<td  align="center"  width=200px id="dhbg">对结构的承载能力有利时</td>
+		    </tr>
+			<tr>
+			<td  align="center" rowspan="2" id="dhbg">1</td>
+			<td  align="center"  colspan="2" id="dhbg">混凝土和圬工结构重力(包括结构附加重力)</td>
+			<!-- <td></td> -->
+			<td  align="center"  id="dhbg">1.2</td>
+			<td  align="center"  rowspan="2"  id="dhbg">1.0</td>
+		    </tr>  
+			<tr>
+			<!-- <td></td> -->
+			<td  align="center"  colspan="2" id="dhbg">钢钢结构面力(包括结构附加重力)</td>
+			<!-- <td></td> -->
+			<td  align="center"  id="dhbg">1.1或1.2</td>
+			<!-- <td></td> -->
+		    </tr> 		
+			<tr>
+			<td  align="center"  id="dhbg">2</td>
+			<td  align="center"  colspan="2" id="dhbg">预加力</td>
+			<!-- <td></td> -->
+			<td  align="center"  id="dhbg">1.2</td>
+			<td  align="center"  id="dhbg">1.0</td>
+		    </tr> 	
+			<tr>
+			<td  align="center"  id="dhbg">3</td>
+			<td  align="center"  colspan="2" id="dhbg">土的重力</td>
+			<!-- <td></td> -->
+			<td  align="center"  id="dhbg">1.2</td>
+			<td  align="center"  id="dhbg">1.0</td>
+		    </tr> 
+			<tr>
+			<td  align="center"  id="dhbg">5</td>
+			<td  align="center"  colspan="2" id="dhbg">土侧压力</td>
+			<!-- <td></td> -->
+			<td  align="center"  id="dhbg">1.4</td>
+			<td  align="center"  id="dhbg">1.0</td>
+		    </tr> 
+			<tr>
+			<td  align="center"  id="dhbg">6</td>
+			<td  align="center"  colspan="2" id="dhbg">水的浮力</td>
+			<!-- <td></td> -->
+			<td  align="center"  id="dhbg">1.0</td>
+			<td  align="center"  id="dhbg">1.0</td>
+		    </tr> 
+			<tr>
+			<td  align="center"  rowspan="2" id="dhbg">7</td>
+			<td  align="center"  rowspan="2" id="dhbg" width="200px">基硼变位作用</td>
+			<td  align="center"  id="dhbg" width="230px">混凝土和圬工结构</td>
+			<td  align="center"  id="dhbg">0.5</td>
+			<td  align="center"  id="dhbg">0.5</td>
+		    </tr> 
+			<tr>
+			<!-- <td></td> -->
+			<!-- <td></td> -->
+			<td  align="center"  id="dhbg">钢结构</td>
+			<td  align="center"  id="dhbg">1.0</td>
+			<td  align="center"  id="dhbg">1.0</td>
+		    </tr> 
+
+ 		</table>       
+  <p style="text-indent:2em;" ><font size="2">注：本表序号1中，当钢桥果用荆桥面板时，永久作用分项系数取1.1；当采用混凝上桥面板时，取1.2。</font></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 1）作用偶然组合的效应设计值可按下式计算：</p>
+
+$$S_{\\mathrm{ad} }=S(\\sum_{i=1}^{\\mathrm{m} }G_{i\\mathrm{k} }, A_{\\mathrm{d} },(\\psi _\\mathrm{f1}或\\psi _\\mathrm{q1})Q_{1\\mathrm{k}},\\sum_{j=2}^{\\mathrm{n} }\\psi _{\\mathrm{q}j}Q_{j\\mathrm{k} })\\tag{4.1.5-3}$$
+ 
+.. raw:: html
+
+  <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>S</i><sub>ad</sub></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 承载能力极限状态下作用偶然组合的效应设计值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>A</i><sub>d</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">偶然作用的设计值；</td>
+  </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>Ψ</i><sub>f1</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">汽车荷载(含汽车冲击力、离心力)的频遇值系数，取<i>Ψ</i><sub>f1</sub> = 0.7；当某个可变作用在组合中其效应值超过汽车荷载效应时，则该作用取代汽车荷载，人群荷载<i>Ψ</i><sub>f</sub> = 1.0，风荷载<i>Ψ</i><sub>f</sub> = 0.75，温度梯度作用<i>Ψ</i><sub>f</sub> = 0.8，其他作用<i>Ψ</i><sub>f</sub> = 1.0；</td>
+  </tr>
+ <tr>
+ <td id="eqzs" colspan="2" align='right'><i>Ψ</i><sub>f1</sub><i>Q</i><sub>1k</sub></td>
+ <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">汽车荷载的频遇值；</td>
+  </tr>    
+  <tr>
+ <td id="eqzs" colspan="2" align='right'><i>Ψ</i><sub>q1</sub>、<i>Ψ</i><sub>qj</sub></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">第1个和第<i>j</i>个可变作用的准永久值系数，汽车荷载(含汽车冲击力、离心力)<i>Ψ</i><sub>q</sub>=0.4,人群荷载<i>Ψ</i><sub>q</sub> = 0.4，风荷载<i>Ψ</i><sub>q</sub> = 0.75，温度梯度作用<i>Ψ</i><sub>q</sub> = 0.8，其他作用<i>Ψ</i><sub>q</sub> = 1.0；</td>
+  </tr>  
+  <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>Ψ</i><sub>q1</sub><i>Q</i><sub>1k</sub>、<i>Ψ</i><sub>qj</sub><i>Q</i><sub>jk</sub></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">第1个和第<i>j</i>个可变作用的准永久值。</td>
+  </tr>
+ </table>  
+ <p></p>
+ <p style="text-align:justify;text-indent:2em;" > 2）作用与作用效应可按线性关系考虑时，作用偶然组合的效应设计值<i>S</i><sub>ad</sub>可通过作用效应代数相加计算。</p>
+
+  <ol start="3">
+ <li>作用地震组合的效应设计值应按现行《公路工程抗震规范》(JTG B02)的有关规定计算。</li>
+ </ol>
+
+ <p style="text-align:justify"><a href="#id4.1.6"> 4.1.6</a> <span id="id4.1.6">  </span></p>
+
+  <ol >
+ <li>频遇组合：永久作用标准值与汽车荷载频遇值、其他可变作用准永久值相组合。</li>
+ </ol>
+ <p style="text-align:justify;text-indent:2em;" > 1）作用频遇组合的效应设计值可按下式计算：</p>
+
+$$ S_{\\mathrm{fd}}=S(\\sum_{i=1}^{m} G_{i\\mathrm{k} },\\psi_{f1}Q_{1\\mathrm{k} },\\sum_{j=2}^{n} \\psi_{\\mathrm{q} j}Q_{j\\mathrm{k} }) \\tag{4.1.6-1}$$
+ 
+.. raw:: html
+
+  <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>S</i><sub>fd</sub></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 作用频遇组合的效应设计值；</td>
+ </tr>
+  <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>Ψ</i><sub>f1</sub></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">汽车荷载(不计汽车冲击力)频遇值系数，取0.7。</td>
+  </tr>
+ </table>  
+ <p></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 2）当作用与作用效应可按线性关系考虑时，作用频遇组合的效应设计值<i>S</i><sub>fd</sub>可通过作用效应代数相加计算。</p>
+
+  <ol start="2">
+ <li>永久组合：永久作用标准值与可变作用准永久值相组合。</li>
+ </ol>
+
+ <p style="text-align:justify;text-indent:2em;" > 1）作用准永久组合的效应设计值可按下式计算：</p>
+
+
+
+$$ S_{\\mathrm{qd}}=S(\\sum_{i=1}^{m} G_{i\\mathrm{k} },\\sum_{j=1}^{n} \\psi_{\\mathrm{q} j}Q_{j\\mathrm{k} }) \\tag{4.1.6-2}$$
+ 
+.. raw:: html
+
+  <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>S</i><sub>qd</sub></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 作用准永久组合的效应设计值；</td>
+ </tr>
+  <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>Ψ</i><sub>qj</sub></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">汽车荷载(不计汽车冲击力)准永久值系数，取0.4。</td>
+  </tr>
+ </table>  
+ <p></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 2）当作用与作用效应可按线性关系考虑时，作用准永久组合的效应设计值<i>S</i><sub>qd</sub>可通过作用效应代数相加计算。</p>
+
+
+
+
+
+ <p style="text-align:justify"><a href="#id4.1.7"> 4.1.7</a> <span id="id4.1.7"> 钢结构构件抗疲劳设计时，除特别指明外，各作用应采用标准值，作用分项系数应取为1.0。</span></p> 
+ <p style="text-align:justify"><a href="#id4.1.8"> 4.1.8</a> <span id="id4.1.8"> 结构构件当需进行弹性阶段截面应力计算时，除特别指明外，各作用应采用标准值，作用分项系数应取为1.0，各项应力限值应按各设计规范规定采用。</span></p>
+ <p style="text-align:justify"><a href="#id4.1.9"> 4.1.9</a> <span id="id4.1.9"> 验算结构的抗倾覆、滑动稳定时，稳定系数、各作用的分项系数及摩擦系数，应根据不同结构按各有关桥涵设计规范的规定确定。支座的摩擦系数可按<a href="#B4.3.13">表4.3.13</a>规定采用。</span></p>
+ <p style="text-align:justify"><a href="#id4.1.10"> 4.1.10</a> <span id="id4.1.10"> 构件在吊装、运输时，构件重力应乘以动力系数1.2(对结构不利时)或0.85(对结构有利时)，并可视构件具体情况作适当增减。</span></p>
+
+4.2 永久作用
+-----------------------------------
+
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id4.2.1"> 4.2.1</a> <span id="id4.2.1"> 结构重力包括结构自重及桥面铺装、附属设备等附加重力。结构重力标准值可按<a href="#B4.2.1">表4.2.1</a>所列常用材料的重度根据<a href="#ideq4.2.1">式(4.2.1)</a><span id="ideq4.2.1">计算。</span></p>
+
+$$ G_{\\mathrm{k}}=\\gamma V \\tag{4.2.1}$$
+ 
+.. raw:: html
+
+  <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>G</i><sub>k</sub></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 结构重力标准值(kN)；</td>
+ </tr>
+  <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>γ</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">材料的重度（kN/m<sup>3</sup>）；</td>
+  </tr>
+   <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>V</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">体积（m<sup>3</sup>）。</td>
+  </tr> 
+ </table>  
+ <p></p>
+
+   		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.1">表4.2.1 常用材料的重度</b></caption>	
+              
+		    <tr>
+		    <td  align="center"  width=225px id="dhbg">材料种类</td>
+		    <td  align="center"  width=225px id="dhbg">重度（kN/m<sup>3</sup>）</td>
+			  <td  align="center"  width=225px id="dhbg">材料种类</td>
+		    <td  align="center"  width=225px id="dhbg">重度（kN/m<sup>3</sup>）</td>	
+			</tr>
+			<tr>
+			<td  align="center" id="dhbg">钢，铸钢</td>
+			<td  align="center" id="dhbg">78.5</td>
+			<td  align="center" id="dhbg">浆砌片在</td>
+			<td  align="center" id="dhbg">23.0</td>
+		  </tr>
+			<tr>
+			<td  align="center" id="dhbg">铸铁</td>
+			<td  align="center" id="dhbg">72.5</td>
+			<td  align="center" id="dhbg">干砌块石或片石</td>
+			<td  align="center" id="dhbg">21.0</td>
+		  </tr>
+			<tr>
+			<td  align="center" id="dhbg">锌</td>
+			<td  align="center" id="dhbg">70.5</td>
+			<td  align="center" id="dhbg">沥青混凝土</td>
+			<td  align="center" id="dhbg">23.0~24.0</td>
+		  </tr>
+			<tr>
+			<td  align="center" id="dhbg">铅</td>
+			<td  align="center" id="dhbg">114.0</td>
+			<td  align="center" id="dhbg">沥青碎石</td>
+			<td  align="center" id="dhbg">22.0</td>
+		  </tr>
+			<tr>
+			<td  align="center" id="dhbg">黄铜</td>
+			<td  align="center" id="dhbg">81.1</td>
+			<td  align="center" id="dhbg">碎(砾)石</td>
+			<td  align="center" id="dhbg">21.0</td>
+		  </tr>
+			<tr>
+			<td  align="center" id="dhbg">青铜</td>
+			<td  align="center" id="dhbg">78.5</td>
+			<td  align="center" id="dhbg">填土</td>
+			<td  align="center" id="dhbg">17.0~18.0</td>
+		  </tr>
+			<tr>
+			<td  align="center" id="dhbg">钢筋混凝土或预应力混流土</td>
+			<td  align="center" id="dhbg">25.0~26.0</td>
+			<td  align="center" id="dhbg">填石</td>
+			<td  align="center" id="dhbg">19.0~20.0</td>
+		  </tr>
+			<tr>
+			<td  align="center" id="dhbg">混凝土或片石混凝土</td>
+			<td  align="center" id="dhbg">24.0</td>
+			<td  align="center" id="dhbg">石灰三合土 石灰土</td>
+			<td  align="center" id="dhbg">17.5</td>
+		  </tr>
+			<tr>
+			<td  align="center" id="dhbg">浆砌块石或料石</td>
+			<td  align="center" id="dhbg">24.0~25.0</td>
+			<td  align="center" id="dhbg">——</td>
+			<td  align="center" id="dhbg">——</td>
+		  </tr>
+ 		</table>   
+  <p></p>
+
+ <p style="text-align:justify"><a href="#id4.2.2"> 4.2.2</a> <span id="id4.2.2"> 预加力计算应满足下列要求：</span></p>
+
+ <ol>
+ <li> 结构进行正常使用极限状态设计和使用阶段构件应力计算时，预加力应作为永久作用计算其主效应和次效应，并计入相应阶段的预应力损失，但不计由于预加力偏心距增大引起的附加效应。</li>
+ <li> 结构进行承载能力极限状态设计时，预加力不应作为作用，应将预应力钢筋作为结构抗力的一部分。但在连续梁等超静定结构中，应考虑预加力引起的次效应。</li>
+ <li> 加力标准值可采用下式进行计算：</li>  
+ </ol>
+
+$$ F_{\\mathrm{pc}}=\\sigma_{\\mathrm{pe}}A_{\\mathrm{p}}\\tag{4.2.2-1}$$
+
+$$ \\sigma_{\\mathrm{pc}}=\\sigma_{\\mathrm{com}}-\\sigma_{\\mathrm{l}}\\tag{4.2.2-2}$$
+ 
+.. raw:: html
+
+  <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>F</i><sub>pe</sub></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 预加力标准值(kN)；</td>
+ </tr>
+  <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>A</i><sub>p</sub></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">材预应力钢筋的截面面积（m<sup>2</sup>）；</td>
+  </tr>
+  <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>σ</i><sub>pe</sub></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">预应力钢筋的有效预应力（kPa）；</td>
+  </tr> 
+  <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>σ</i><sub>con</sub></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">预应力钢筋张拉控制应力（kPa）；</td>
+  </tr> 
+  <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>σ</i><sub>l</sub></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">预应力钢筋相应阶段的预应力损失（kPa）。</td>
+  </tr> 
+ </table>  
+ <p></p>
+
+ <p style="text-align:justify"><a href="#id4.2.3"> 4.2.3</a> <span id="id4.2.3">  </span></p>
+ <ol >
+ <li> 静土压力的标准值可按下列公式计算：</li>  
+ </ol>
+
+$$e_{j}=\\xi\\gamma h\\tag{4.2.3-1}$$
+
+$$\\xi=1-\\sin \\varphi \\tag{4.2.3-2}$$
+
+$$E_{j}=\\dfrac{1}{2}\\xi\\gamma H^{2}\\tag{4.2.3-3}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>e</i><sub>j</sub></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 任一高度h处的静土压力(kPa);</td>
+ </tr>
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>ξ</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">压实土的静土压力系数；</td>
+ </tr> 
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>γ</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">土的重度(kN/m<sup>3</sup>);</td>
+ </tr> 
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>φ</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">—土的内摩擦角(°);</td>
+ </tr> 
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>h</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">填土顶面至任一点的高度(m);</td>
+ </tr> 
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>H</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">填土高度(m);</td>
+ </tr> 
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>E</i><sub>j</sub></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">高度目范围内单位宽度的静土压力标准值(kN/m)。</td>
+ </tr>      
+ </table>  
+ <p></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 在计算抗倾覆和滑动稳定时，墩、台、挡土墙前侧地面以下不受冲刷部分土的侧压力可按静土压力计算。</p>  
+
+ <ol start="2">
+ <li> 主动土压力的标准值可按下列公式计算<a href="#fig4.2.3.1">(图4.2.3-1)</a></li>  
+ </ol>
+ <p style="text-align:justify;text-indent:2em;" > 当土层特性无变化且无汽车荷载时，作用在桥台、拌土墙前后的主动土压力标准值可按下式计算：</p>  
+
+$$E=\\dfrac{1}{2}B\\mu \\gamma H^{2}\\tag{4.2.3-4}$$
+
+$$\\small{\\mu=\\dfrac{\\cos^{2}(\\varphi -\\alpha )}{\\cos^{2}\\alpha \\cdot\\cos(\\alpha +\\delta )\\left [1+\\sqrt{\\dfrac{\\sin(\\varphi +\\delta )\\sin(\\varphi-\\beta )}{\\cos(\\alpha +\\delta )\\cos(\\alpha -\\beta)}} \\right ] ^{2}}}\\tag{4.2.3-5}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>E</i></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 主动土压力标准值(kN)；</td>
+ </tr>
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>γ</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">土的重度(kN/m<sup>3</sup>);</td>
+ </tr> 
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>B</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">桥台的计算宽度或挡土墙的计算长度(m);</td>
+ </tr> 
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>H</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">计算土层高度(m);</td>
+ </tr> 
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>β</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">填土表面与水平面的夹角，当计算台后或墙后的主动土压力时，<i>β</i>按<a href="#fig4.2.3.1">图 4.2.3-1a)</a>取正值；当计算台前或墙前主动土压力时，<i>β</i>按<a href="#fig4.2.3.1">图 4.2.3-1b)</a>取负值；</td>
+ </tr> 
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>α</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">桥台或挡土墙背与竖直面的夹角，俯墙背<a href="#fig4.2.3.1">(图4.2.3-1)</a>时为正值，反之为负值；</td>
+ </tr> 
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>δ</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">台背或墙背与填土间的摩擦角，可取<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>δ</mi><mo>=</mo><mi>φ</mi><mrow><mo>/</mo></mrow><mn>2</mn></math>。</td>
+ </tr>      
+ </table>  
+ <p></p>
+
+
+ <p style="text-align:justify;text-indent:2em;" > 主动土压力的着力点自计算土层底面算起，<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>C</mi><mo>=</mo><mi>H</mi><mrow><mo>/</mo></mrow><mn>3</mn></math>。</p>  
+
+
+ <div align="center"><img id="fig4.2.3.1" src="./_static/fig/4.2.3.1.png" alt="Picture" width="400px"></div>
+  <p style="color: dimgray;text-align: center;">图 4.2.3-1 主动土压力图</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.2.3.1'));</script>
+ 
+ <p style="text-align:justify;text-indent:2em;" > 当土层特性无变化但有汽车荷载作用时，作用在桥台、挡土墙后的主动土压力标准值在<i>β</i>=0°时可按下式计算：</p>  
+
+$$E=\\dfrac{1}{2}B\\mu\\gamma H(H+2h)\\tag{4.2.3-6}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>h</i></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 汽车荷载的等代均布土层厚度(m)。</td>
+ </tr>
+ </table>  
+ <p></p>
+ <p style="text-align:justify;text-indent:2em;" > 主动土压力的着力点自计算土层底面算起，<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>C</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mi>H</mi><mn>3</mn></mfrac></mstyle><mo>×</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mi>H</mi><mo>+</mo><mn>3</mn><mi>h</mi></mrow><mrow><mi>H</mi><mo>+</mo><mn>2</mn><mi>h</mi></mrow></mfrac></mstyle></math>。</p>
+ <p style="text-align:justify;text-indent:2em;" > 3)当<i>β</i>=0°时，破坏棱体破裂面与竖直线间夹角<i>θ</i>的正切值可按下式计算：</p>  
+
+$$\\tan \\theta =-\\tan \\omega +\\sqrt{(\\cot\\varphi +\\tan \\omega )(\\tan \\omega -\\tan \\alpha )}\\tag{4.2.3-7}$$
+$$\\omega =\\alpha +\\delta +\\varphi $$ 
+
+.. raw:: html
+
+ <ol start="3">
+ <li> 当土层特性有变化或受水位影响时，宜分层计算土的侧压力。</li>  
+ <li> 土的重度和内摩擦角应根据调查或试验确定；当无实际资料时，可按<a href="#B4.2.1">表4.2.1</a>和现行《公路桥涵地基与基础设计规范》(JTG D63)采用。</li>  
+ <li> 承受土侧压力的柱式墩台，作用在柱上的土压力计算宽度，可按下列规定采用<a href="#fig4.2.3.2">(图4.2.3-2)</a>:</li>    
+ </ol>
+ <p style="text-align:justify;text-indent:2em;" > 1)当<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>i</mi></mrow></msub><mo>⩽</mo><mi>D</mi></math>时，作用在每根柱上的土压力计算宽度可按下式计算： </p>
+
+$$b=\\dfrac{nD+\\sum^\\limits{n-1}_{i=1}}{n}\\tag{4.2.3-8}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>b</i></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 土压力计算宽度(m);</td>
+ </tr>
+  <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>D</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">柱的直径或宽度(m);</td>
+  </tr>
+  <tr>
+ <td id="eqzs" colspan="2" align='right'> <math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>i</mi></mrow></msub></math></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">柱间净距(m);</td>
+  </tr>  
+  <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>n</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">柱数。</td>
+  </tr> 
+ </table>  
+ <p></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 2)当<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mi>i</mi></mrow></msub><mo>&gt;</mo><mi>D</mi></math>时，应根据柱的直径或宽度来考虑柱间空隙的折减。 </p>
+ <p style="text-align:justify;text-indent:2em;" > 当<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>D</mi><mo>⩽</mo><mn>1.0</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">m</mi></mrow></math>时，作用在每一柱上的土压力计算宽度可按下式计算： </p>
+
+
+ <div align="center"><img id="fig4.2.3.2" src="./_static/fig/4.2.3.2.png" alt="Picture" width="400px"></div>
+  <p style="color: dimgray;text-align: center;">图 4.2.3-2 柱的土侧压力计算宽度</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.2.3.2'));</script>
+
+$$b=\\dfrac{D(2n-1)}{n}\\tag{4.2.3-9}$$
+ 
+.. raw:: html
+
+ <p style="text-align:justify;text-indent:2em;" > 当D>1.0 m时，作用在每一柱上的土压力计算宽度可按下式计算： </p>
+
+
+$$b=\\dfrac{n(D+1)-1}{n}\\tag{4.2.3-10}$$
+ 
+.. raw:: html
+
+ <ol start="6">
+ <li> 压实填土重力的竖向和水平压力强度标准值可按下式计算：</li>  
+ </ol>
+
+$$ 竖向压力强度\\hspace{2cm}q_{\\mathrm{v} } =\\gamma h\\tag{4.2.3-11}$$
+
+$$ 水平压力强度\\hspace{2cm}q_{\\mathrm{H} } =\\lambda \\gamma h\\tag{4.2.3-12}$$
+
+$$\\lambda =\\tan^{2}(45^{\\circ}-\\dfrac{\\varphi }{2})\\tag{4.2.3-13}$$
+ 
+.. raw:: html
+
+  <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>γ</i></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 土的重度(kN/m<sup>3</sup>);</td>
+ </tr>
+  <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>h</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">计算截面至路面顶的高度(m);</td>
+  </tr>
+  <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>λ</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">侧压系数。</td>
+  </tr> 
+ </table>  
+ <p></p>
+
+ <p style="text-align:justify"><a href="#id4.2.4"> 4.2.4</a> <span id="id4.2.4"> 混凝土收缩及徐变作用可按下述规定取用：</span></p>
+ <ol>
+ <li> 外部超静定的混凝土结构、钢和混凝土的组合结构等应考虑混凝土收缩及徐变的作用。</li>  
+ <li> 混凝土的收缩应变终极值可按现行《公路钢筋混凝土及预应力混凝土桥涵设计规范》(JTG D62)的规定计算。</li>  
+ <li> 凝土徐变的计算，可假定徐变与混凝土应力呈线性关系。</li>  
+ <li> 计算混凝土圬工拱圈的收缩作用效应时，如考虑徐变影响，作用效应可乘以折减系数0.45。</li>    
+ </ol>
+
+
+ <p style="text-align:justify"><a href="#id4.2.5"> 4.2.5</a> <span id="id4.2.5"> 水的浮力可按下列规定采用：</span></p>
+
+ <ol>
+ <li> 础底面位于透水性地基上的桥梁墩台，当验算稳定性时，应考虑设计水位的浮力；当验算地基承载力时，可仅考虑低水位的浮力，或不考虑水的浮力。</li>  
+ <li> 础嵌入不透水性地基的桥梁墩台可不考虑水的浮力。</li>  
+ <li> 作用在桩基承台底面的浮力，应考虑全部底面积。对桩嵌入不透水地基并灌注混凝土封闭者，不应考虑桩的浮力，在计算承台底面浮力时应扣除桩的截面面积。</li>  
+ <li> 当不能确定地基是否透水时，应以透水或不透水两种情况与其他作用组合，取其最不利者。</li>  
+ <li> 水的浮力标准值可按下式计算：</li>    
+ </ol>
+
+$$F=\\gamma  V_{\\mathrm{w} }\\tag{4.2.5}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>F</i></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 水的浮力标准值(kN);</td>
+ </tr>
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>γ</i></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">水的重度(kN/m<sup>3</sup>);</td>
+ </tr>  
+ <tr>
+ <td id="eqzs" colspan="2" align='right'> <i>V</i><sub>w</sub></td>
+  <!-- <td></td> -->
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构排开水的体积(m<sup>3</sup>)。</td>
+ </tr>   
+ </table>  
+ <p></p>
+ <p style="text-align:justify"><a href="#id4.2.6"> 4.2.6</a> <span id="id4.2.6"> 超静定结构当考虑由于地基压密等引起的长期变形影响时，应根据最终位移量计算构件的效应。</span></p>  
+
+
+4.3 可变作用
+-----------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id4.3.1"> 4.3.1</a> <span id="id4.3.1"> 公路桥涵设计时，汽车荷载的计算图式、荷载等级及其标准值、加载方法和纵横向折减等应符合下列规定：</span></p>
+ <ol>
+ <li> 汽车荷载分为公路-I级和公路—Ⅱ级两个等级。</li>  
+ <li> 汽车荷载由车道荷载和车辆荷载组成。桥梁结构的整体计算采用车道荷载；桥梁结构的局部加载、涵洞、桥台和挡土墙土压力等的计算采用车两荷载。车道荷载与车辆荷载的作用不得叠加。</li>  
+ <li> 各级公路桥涵设计的汽车荷载等级应符合<a href="#B4.3.1.1">表4.3.1-1</a>的规定</li>    
+ </ol>
+ <table id="biaoge" style="font-family:times new roman">
+
+ <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.1.1">表4.3.1-1 各级公路桥涵的汽车荷载等级</b></caption>	
+              
+ <tr>
+ <td  align="center" width="200px">公路等级</td>
+ <td  align="center" width="140px">高速公路</td>
+ <td  align="center" width="140px">一级公路</td>
+ <td  align="center" width="140px">二级公路</td>
+ <td  align="center" width="140px">三级公路</td>
+ <td  align="center" width="140px">四级公路</td>
+ </tr>
+ <tr>
+ <td  align="center" >汽车荷载等级</td>
+ <td  align="center" >公路-I级</td>
+ <td  align="center" >公路-I级</td>
+ <td  align="center" >公路-I级</td>
+ <td  align="center" >公路-II级</td>
+ <td  align="center" >公路-II级</td>
+ </tr>
+ </table>       
+ <p></p>		
+ <p style="text-align:justify;text-indent:2em;" > 1)二级公路作为集散公路且交通量小、重型车辆少时，其桥涵的设计可采用公路—Ⅱ级汽车荷载。</p>
+ <p style="text-align:justify;text-indent:2em;" > 2)对交通组成中重载交通比重较大的公路桥涵，宜采用与该公路交通组成相适应的汽车荷载模式进行结构整体和局部验算。</p>
+ <olstart="4">
+ <li> 车道荷载的计算图<a href="#fig4.3.1.1">图4.3.1-1</a>所示如。</li>    
+ </ol>
+ <div align="center"><img id="fig4.3.1.1" src="./_static/fig/4.3.1.1.png" alt="Picture" width="400px"></div>
+  <p style="color: dimgray;text-align: center;">图 4.3.1-1 车道荷载</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.3.1.1'));</script>
+
+ <p style="text-align:justify;text-indent:2em;" > 1)公路—I级车道荷载均布荷载标准值为<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>q</mi><mrow><mrow><mi mathvariant="normal">k</mi></mrow></mrow></msub><mo>=</mo><mn>10.5</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">N</mi><mrow><mo>/</mo></mrow><mi mathvariant="normal">m</mi></mrow></math>；集中荷载标准值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>p</mi><mrow><mrow><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>取值见<a href="#B4.3.1.2">表4.3.1-2</a>。计算剪力效应时，上述集中荷载标准值应乘以系数1.2。</p>
+
+ <table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.1.2">表4.3.1-2 集中载<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>p</mi><mrow><mrow><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>取值</b></caption>	
+              
+		    <tr>
+		    <td  align="center" width="225px">计算跨径<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>L</mi><mrow><mrow><mi mathvariant="normal">0</mi></mrow></mrow></msub></math>（m）</td>
+		    <td  align="center" width="225px"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>L</mi><mrow><mn>0</mn></mrow></msub><mo>⩽</mo><mn>5</mn></math></td>
+			  <td  align="center" width="225px"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>5</mn><mo>&lt;</mo><msub><mi>L</mi><mrow><mn>0</mn></mrow></msub><mo>&lt;</mo><mn>50</mn></math></td>
+			  <td  align="center" width="225px"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>L</mi><mrow><mn>0</mn></mrow></msub><mo>⩾</mo><mn>50</mn></math></td>
+		    </tr>
+  		  <tr>
+		    <td  align="center" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>P</mi><mrow><mrow><mi mathvariant="normal">k</mi></mrow></mrow></msub><mtext>&nbsp;</mtext><mrow><mo stretchy="false">(</mo><mi mathvariant="normal">k</mi><mi mathvariant="normal">N</mi><mo stretchy="false">)</mo></mrow></math></td>
+		    <td  align="center" >270</td>
+			  <td  align="center" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>2</mn><mo stretchy="false">(</mo><msub><mi>L</mi><mrow><mn>0</mn></mrow></msub><mo>+</mo><mn>130</mn><mo stretchy="false">)</mo></math></td>
+        <td  align="center" >360</td>
+		    </tr>
+  		  </table>       
+   <p> <font size="2"> 注：计算跨径<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>L</mi><mrow><mrow><mi mathvariant="normal">0</mi></mrow></mrow></msub></math>，设支座的为相邻两支座中心间的水平距离；不设支座的为上、下部结构相交面中心间的水平距离。</font></p>
+
+
+ <p style="text-align:justify;text-indent:2em;" > 2)公路—Ⅱ级车道荷载的均布荷载标准值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>q</mi><mrow><mrow><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>和集中荷载标准值<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>p</mi><mrow><mrow><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>按公路—I级车道荷载的0.75倍采用。</p>
+ <p style="text-align:justify;text-indent:2em;" > 3)车道荷载的均布荷载标准值应满布于使结构产生最不利效应的同号影响线上；集中荷载标准值只作用于相应影响线中一个影响线峰值处。</p>
+ <ol start="5">
+ <li> 车辆荷载的立面、平面尺寸如<a href="#fig4.3.1.2">图4.3.1-2</a>所示，主要技术指标规定见<a href="#B4.3.1.3">表4.3.1-3</a>。公路—I级和公路—Ⅱ级汽车荷载采用相同的车辆荷载标准值。</li>    
+ </ol>
+
+ <table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.1.3">表4.3.1-3 辆荷载的主要技术指标</b></caption>	
+              
+		    <tr>
+		    <td  align="center" width="200px">项目</td>
+		    <td  align="center" width="100px">单位</td>
+			  <td  align="center" width="150px">技术指标</td>
+			  <td  align="center" width="200px">项目</td>
+			  <td  align="center" width="100px">单位</td>
+			  <td  align="center" width="150px">技术指标</td>
+		    </tr>
+  		  <tr>
+		    <td  align="center" >车辆重力标准值</td>
+		    <td  align="center" >kN</td>
+			  <td  align="center" >550</td>
+        <td  align="center" >轮距</td>
+        <td  align="center" >m</td>
+        <td  align="center" >1.8</td>
+		    </tr>
+        <tr>
+		    <td  align="center" >前轴重力标准值</td>
+		    <td  align="center" >kN</td>
+			  <td  align="center" >30</td>
+        <td  align="center" >前轮着地宽度及长度</td>
+        <td  align="center" >m</td>
+        <td  align="center" >0.3×0.2</td>
+		    </tr>
+        <tr>
+		    <td  align="center" >中轴重力标准值</td>
+		    <td  align="center" >kN</td>
+			  <td  align="center" >2×120</td>
+        <td  align="center" >中、后轮着地宽度及长度</td>
+        <td  align="center" >m</td>
+        <td  align="center" >0.6×0.2</td>
+		    </tr>
+        <tr>
+		    <td  align="center" >后轴重力标准值</td>
+		    <td  align="center" >kN</td>
+			  <td  align="center" >2×140</td>
+        <td  align="center" >车辆外形尺寸（长×宽）</td>
+        <td  align="center" >m</td>
+        <td  align="center" >15×2.5</td>
+		    </tr>
+        <tr>
+		    <td  align="center" >轴距</td>
+		    <td  align="center" >km</td>
+			  <td  align="center" >3+1.4+7+1.4</td>
+        <td  align="center" >-</td>
+        <td  align="center" >-</td>
+        <td  align="center" >-</td>
+		    </tr>
+  		  </table>       
+   <p> <font size="2">  </font></p>
+
+ <div align="center"><img id="fig4.3.1.2" src="./_static/fig/4.3.1.2.png" alt="Picture" width="600px"></div>
+  <p style="color: dimgray;text-align: center;">图 4.3.1-2 车辆荷载的立面、平面尺寸(尺寸单位：m;荷载单位：kN)</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.3.1.2'));</script>
+
+ <ol start="6">
+ <li> 车道荷载横向分布系数应按<a href="#fig4.3.1.3">图4.3.1-3</a>所示布置车道荷载进行计算。</li>    
+ <li> 桥涵设计车道数应符合<a href="#B4.3.1.4">表4.3.1-4</a>的规定。横桥向布置多车道汽车荷载时，应考虑汽车荷载的折减；布置一条车道汽车荷载时，应考虑汽车荷载的提高。横向车道布载系数应符合<a href="#B4.3.1.5">表4.3.1-5</a>的规定。多车道布载的荷载效应不得小于两条车道布载的荷载效应。</a></li>
+ <li> 大跨径桥梁上的汽车荷载应考虑纵向折减。当桥梁计算跨径大于150 m时，应按<a href="#B4.3.1.6">表4.3.1-6</a>规定的纵向折减系数进行折减。当为多跨连续结构时，整个结构应按最大的计算跨径考虑汽车荷载效应的纵向折减。</li>
+ </ol>
+  <div align="center"><img id="fig4.3.1.3" src="./_static/fig/4.3.1.3.png" alt="Picture" width="600px"></div>
+  <p style="color: dimgray;text-align: center;">图 4.3.1-3 车辆荷载横向布置(尺寸单位：m)</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.3.1.3'));</script>  
+
+ <table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.1.4">表4.3.1-4 桥涵设计车道数</b></caption>	
+              
+		    <tr>
+		    <td  align="center" colspan="2"  >桥面宽度W(m)</td>
+		    <!-- <td></td> --> 
+			  <td  align="center" width="300px" rowspan="2">技桥涵设计车道数</td>
+		    </tr>
+        <tr>
+		    <td  align="center" width="300px">车辆单向行驶时</td>
+		    <td  align="center" width="300px">车辆双向行驶时</td>
+			  <!-- <td></td> --> 
+		    </tr> 
+  		  <tr>
+		    <td  align="center" >w＜7.0 <br/> 7.0≤W＜10.5 <br/>10.5≤W＜14 <br/> 14.0≤W＜17.5<br/> 17.5≤W＜21.0 <br/> 21.0≤W＜24.5 <br/> 24.5≤W＜28.0<br/> 28.0≤W＜31.5   </td>
+			  <td  align="center" > <br/>6.0≤W＜14.0<br/> <br/>14.0≤W＜21.0 <br/><br/>21.0≤W＜28.0<br/> <br/>28.0≤W＜35.0</td>
+        <td  align="center" >1<br/>2<br/>3<br/>4<br/>5<br/>6<br/>7<br/>8</td>
+		    </tr>
+       </table>       
+   <p> <font size="2">  </font></p>
+
+ <table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.1.5">表4.3.1-5 横向车道布载系数</b></caption>	
+              
+		    <tr>
+		    <td  align="center" width="300px">横向布载车道数(条)</td>
+		    <td  align="center" width="75px">1</td>
+        <td  align="center" width="75px">2</td>
+        <td  align="center" width="75px">3</td>
+        <td  align="center" width="75px">4</td>
+        <td  align="center" width="75px">5</td>
+        <td  align="center" width="75px">6</td>
+        <td  align="center" width="75px">7</td>
+			  <td  align="center" width="75px">8</td>
+		    </tr>
+        <tr>
+		    <td  align="center" >横向车道布载系数</td>
+		    <td  align="center" >1.20</td>
+			  <td  align="center" >1.00</td>
+		    <td  align="center" >0.78</td>
+        <td  align="center" >0.67</td>
+		    <td  align="center" >0.60</td>
+        <td  align="center" >0.55</td>
+		    <td  align="center" >0.52</td>
+        <td  align="center" >0.50</td>
+		    </tr> 
+  		  </table>       
+   <p> <font size="2">  </font></p>
+
+ <table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.1.6">表4.3.1-6 纵向折减系数</b></caption>	
+              
+		    <tr>
+		    <td  align="center" width="225px">计等跨径<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>L</mi><mrow><mn>0</mn></mrow></msub></math>(m)</td>
+		    <td  align="center" width="225px">纵向折减系数</td>
+        <td  align="center" width="225px">计等跨径<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>L</mi><mrow><mn>0</mn></mrow></msub></math>(m)</td>
+			  <td  align="center" width="225px">纵向折减系数</td>
+		    </tr>
+        <tr>
+		    <td  align="center">150＜<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>L</mi><mrow><mn>0</mn></mrow></msub></math>＜400</td>
+		    <td  align="center">0.97</td>
+			  <td  align="center">800≤<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>L</mi><mrow><mn>0</mn></mrow></msub></math>＜1000</td>
+		    <td  align="center">0.94</td>
+		    </tr> 
+  		  <tr>
+		    <td  align="center">400≤<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>L</mi><mrow><mn>0</mn></mrow></msub></math>＜600</td>
+		    <td  align="center">0.96</td>
+			  <td  align="center"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>L</mi><mrow><mn>0</mn></mrow></msub></math>≥1000</td>
+		    <td  align="center">0.93</td>
+		    </tr>
+        <tr>
+		    <td  align="center">600≤<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>L</mi><mrow><mn>0</mn></mrow></msub></math>＜800</td>
+		    <td  align="center">0.95</td>
+			  <td  align="center">—</td>
+		    <td  align="center">—</td>
+		    </tr> 
+       </table>       
+   <p> <font size="2">  </font></p>  
+
+
+ <p style="text-align:justify"><a href="#id4.3.2"> 4.3.2</a> <span id="id4.3.2"> 汽车荷载冲击力应按下列规定计算：</span></p>
+ <ol >
+ <li> 钢桥、钢筋混凝土及预应力混凝土桥、圬工拱桥等上部构造和钢支座、板式橡胶支座、盆式橡胶支座及钢筋混凝土柱式墩台，应计算汽车的冲击作用。</li>    
+ <li> 填料厚度(包括路面厚度)大于或等于0.5 m 的拱桥、涵洞以及重力式墩台不计冲击力。</a></li>
+ <li> 支座的冲击力，按相应的桥梁取用。</li>
+ <li> 车荷载的冲击力标准值为汽车荷载标准值乘以冲击系数<i>μ</i>。</li>
+ <li> 冲击系数<i>μ</i>可按下式计算：</li>  
+ </ol>
+
+$$\\begin{align*}当f＜1.5\\ \\mathrm{Hz} 时，  & \\mu=0.05\\\\当1.5\\ \\mathrm{Hz} \\leqslant f\\leqslant 14\\ \\mathrm{Hz} 时，  & \\mu=0.176\\ 7\\ln{f}-0.015\\ 7 \\\\当f＞1.5\\ \\mathrm{Hz} 时， &\\mu=0.45\\end{align*}\\tag{4.3.2}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>f</i></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 结构基频(Hz)。</td>
+ </tr>
+ </table>  
+ <p></p>
+ <ol start="6">
+ <li> 汽车荷载的局部加载及在T梁、箱梁悬臂板上的冲击系数采用0.3。</li>  
+ </ol>
+ <p style="text-align:justify"><a href="#id4.3.3"> 4.3.3</a> <span id="id4.3.3"> 汽车荷载离心力可按下列规定计算：</span></p>
+ <ol >
+ <li> 曲线桥应计算汽车荷载引起的离心力。汽车荷载离心力标准值为按本规范<a href="#id4.3.1">第4.3.1条</a>规定的车辆荷载(不计冲击力)标准值乘以离心力系数<i>C</i>计算。离心力系数按下式计算：</li>  
+ </ol>
+
+$$C=\\dfrac{v^{2}}{127R}\\tag{4.3.3}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>v</i></td>
+ <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 设计速度(km/h),应按桥梁所在路线设计速度采用；</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td align='right'  id="eqzs" ><i>R</i></td>
+ <td align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 曲线半径(m)。</td>
+ </tr> 
+ </table>  
+ <p></p>
+ <ol start="2">
+ <li> 计算多车道桥梁的汽车荷载离心力时，车辆荷载标准值应乘以<a href="#B4.3.1.5">表4.3.1-5</a>规定的横向车道布载系数。</li>  
+ <li> 离心力着力点在桥面以上1.2 m处；为计算简便也可移至桥面上，不计由此引起的作用效应。</li>   
+ </ol>
+
+ <p style="text-align:justify"><a href="#id4.3.4"> 4.3.4</a> <span id="id4.3.4"> 车荷载引起的土压力采用车辆荷载加载，并可按下列规定计算：</span></p>
+
+ <ol >
+ <li> 汽车荷载在桥台或挡土墙后填土的破坏棱体上引起的土侧压力，可按下式换算成等代均布土层厚度<i>h</i>(m)计算：</li>  
+ </ol>
+
+$$h=\\dfrac{\\sum G}{Bl_{0}\\gamma}\\tag{4.3.4-1}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>γ</i></td>
+ <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 土的重度(kN/m<sup>3</sup>);</td>
+ </tr>
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td align='right'  id="eqzs" >Σ<i>G</i></td>
+ <td align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 布置在<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>B</mi><mo>×</mo><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math>面积内的车轮的总重力(kN);</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math></td>
+ <td align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 桥台或挡土墙后填土的破坏棱体长度(m);</td>
+ </tr> 
+ <tr>
+ <td align='right' id="eqzs" > </td>
+ <td align='right'  id="eqzs" ><i>B</i></td>
+ <td align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 桥台横向全宽或挡土墙的计算长度(m)。</td>
+ </tr>    
+ </table>  
+ <p></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 挡土墙的计算长度<i>B</i>(m)可按下列公式计算，但不应超过挡土墙分段长度：</p>
+
+$$B=13+H\\tan 30^{\\circ}\\tag{4.3.4-2}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>H</i></td>
+ <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 挡土墙高度(m),对墙顶以上有填土的挡土墙，为2 倍墙顶填土厚度加墙高。</td>
+ </tr>
+ </table>  
+ <p></p>
+ <p style="text-align:justify;text-indent:2em;" > 当挡土墙分段长度小于13 m时，<i>B</i>取分段长度，并应在该长度内按不利情况布置轮重。</p>
+ <ol start="2">
+ <li> 计算涵洞顶上汽车荷载引起的竖向土压力时，车轮按其着地面积的边缘向下作30°角分布。当几个车轮的压力扩散线相重叠时，扩散面积以最外边的扩散线为准。</li>   
+ </ol>
+
+ <p style="text-align:justify"><a href="#id4.3.5"> 4.3.5</a> <span id="id4.3.5"> 汽车荷载制动力应按下列规定计算和分配：</span></p>
+
+ <ol >
+ <li> 汽车荷载制动力按同向行驶的汽车荷载(不计冲击力)计算，并应按<a href="#B4.3.1.6">表4.3.1-6</a>的规定，以使桥梁墩台产生最不利纵向力的加载长度进行纵向折减。</li>  
+ </ol> 
+  <p style="text-align:justify;text-indent:1em;" >1)一个设计车道上由汽车荷载产生的制动力标准值按本规范<a href="#id4.3.1">第4.3.1条</a>规定的车道荷载标准值在加载长度上计算的总重力的10%算，但公路—I级汽车荷载的制动力标准值不得小于165 kN,公路—Ⅱ级汽车荷载的制动力标准值不得小于90 kN;<br/>&emsp; 2)同向行驶双车道的汽车荷载制动力标准值应为一个设计车道制动力标准值的2倍，同向行驶三车道应为一个设计车道的2.34倍，同向行驶四车道应为一个设计车道的2.68倍。</p>
+
+  <ol start="2">
+ <li> 制动力的着力点在桥面以上1.2 m处，计算墩台时，可移至支座铰中心或支座底座面上。计算刚构桥 拱桥时，制动力的着力点可移至桥面上，但不应计因此而产生的竖向力和力矩。</li>   
+ <li> 设有板式橡胶支座的简支梁、连续桥面简支梁或连续梁排架式柔性墩台，应根据支座与墩台的抗推刚度的刚度集成情况分配和传递制动力。设有板式橡胶支座的简支梁刚性墩台，应按单跨两端的板式橡胶支座的抗推刚度分配制动力。</li> 
+ <li> 设有固定支座、活动支座(滚动或摆动支座、聚四氟乙烯板支座)的刚性墩台传递的制动力，按<a href="#B4.3.5">表4.3.5</a>的规定采用。每个活动支座传递的制动力，其值不应大于其摩阻力；当大于摩阻力时，按摩阻力计算。</li>   
+ </ol>
+
+ <table id="biaoge" style="font-family:times new roman">
+
+   <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.5">表4.3.5 刚性墩台各种支座传递的制动力</b></caption>	
+              
+   <tr>
+    <td  align="center" id="dhbg" colspan="2">桥梁墩台及支座类型</td>
+   <!-- <td></td> --> 
+   <td  align="center" id="dhbg" width="165px">应计的制动力</td>
+   <td  align="center" id="dhbg" width="265px">符号说明</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" width="165px">简支梁桥台</td>
+   <td align="center" id="dhbg" width="305px">固定支座<br/>聚四氟乙烯板支座<br/>滚动(或摆动)支座</td>
+   <td align="center" id="dhbg" ><i>T</i><sub>1</sub><br/>0.30<i>T</i><sub>1</sub><br/>0.25<i>T</i><sub>1</sub></td>
+   <td align="left" id="dhbg" rowspan="3"><i>T</i><sub>1</sub>——加载长度为计算跨径时的制动力；<br/><i>T</i><sub>2</sub>——加载长度为相邻两跨计算跨径之和时的制动力；<br/><i>T</i><sub>3</sub>——加载长度为一联长度的制动力</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >简支梁桥墩</td>
+   <td align="center" id="dhbg" >两个固定支座<br/>一个固定支座，一个活动支座<br/>两个四氟乙烯板支座<br/>两个滚动(或摆动)支座</td>
+   <td align="center" id="dhbg"><i>T</i><sub>2</sub><br/>注<br/>0.30<i>T</i><sub>12</sub><br/>0.25<i>T</i><sub>2</sub></td>
+   <!-- <td></td> --> 
+   </tr>   
+   <tr>
+   <td align="center" id="dhbg">连续梁桥墩</td>
+   <td align="center" id="dhbg">固定支座<br/>聚四氟乙烯板支座<br/>滚动(或摆动)支座</td>
+   <td align="center" id="dhbg"><i>T</i><sub>3</sub><br/>0.30<i>T</i><sub>3</sub><br/>0.25<i>T</i><sub>3</sub></td>
+   <!-- <td></td> --> 
+	</tr>
+   </table>
+ <p><font size="2"> 注：固定支座按<i>T</i><sub>4</sub>计算，活动支座按0.30<i>T</i><sub>5</sub>(聚四氟乙烯板支座)或0.25<i>T</i><sub>5</sub>(滚动或摆动支座)计算，<i>T</i><sub>4</sub>和<i>T</i><sub>5</sub>分别为与固定支座或活动支座相应的单跨跨径的制动力，桥墩承受的制动力为上述固定支座与活动支座传递的制动力之和。</font></p> 
+
+
+ <p style="text-align:justify"><a href="#id4.3.6"> 4.3.6</a> <span id="id4.3.6"> 群荷载标准值应按下列规定采用：</span></p>
+
+ <ol >
+ <li> 汽车荷载制动力按同向行驶的汽车荷载(不计冲击力)计算，并应按<a href="#B4.3.1.6">表4.3.1-6</a>的规定，以使桥梁墩台产生最不利纵向力的加载长度进行纵向折减。</li>  
+ </ol> 
+
+  <table id="biaoge" style="font-family:times new roman">
+
+   <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.5">表4.3.5 刚性墩台各种支座传递的制动力</b></caption>	
+              
+   <tr>
+   <td  align="center" id="dhbg" width="225px">计算跨径<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math>（m）</td>
+   <td  align="center" id="dhbg" width="225px"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mo>⩽</mo><mn>50</mn></math></td>
+   <td  align="center" id="dhbg" width="225px"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mn>50</mn><mo>＜</mo><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mo>＜</mo><mn>150</mn></math></td>
+   <td  align="center" id="dhbg" width="225px"><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub><mo>⩾</mo><mn>50</mn></math></td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >人群荷载（kN/m<sup>2</sup>）</td>
+   <td align="center" id="dhbg" >3.0</td>
+   <td align="center" id="dhbg" >3.25-0.005<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>l</mi><mrow><mn>0</mn></mrow></msub></math></td>
+   <td align="center" id="dhbg" >2.5</td>
+   </tr>
+   </table>
+ <p><font size="2"> </font></p> 
+
+  <p style="text-align:justify;text-indent:1em;" >1)非机动车、行人密集的公路桥梁，人群荷载标准值取上述标准值的1.15倍。<br/>&emsp;&nbsp;2)用人行桥梁，人群荷载标准值为3.5 kN/m<sup>2</sup>。</p>
+
+  <ol start="2">
+ <li> 人群荷载在横向应布置在人行道的净宽度内，在纵向施加于使结构产生最不利荷载效应的区段内。</li>   
+ <li> 人行道板(局部构件)可以一块板为单元，按标准值4.0 kN/m<sup>2</sup>的均布荷载计算。</li> 
+ <li> 计算人行道栏杆时，作用在栏杆立柱顶上的水平推力标准值取0.75 kN/m，作用在栏杆扶手上的竖向力标准值取1.0 kN/m。</li>   
+ </ol>
+
+ <p style="text-align:justify"><a href="#id4.3.7"> 4.3.7</a> <span id="id4.3.7"> 疲劳劳荷载的计算模型应符合下列规定：</span></p>
+ <ol >
+ <li> 疲劳荷载计算模型I采用等效的车道荷载，集中荷载为0.7<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>P</mi><mrow><mrow><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>，均布荷载为0.3<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>q</mi><mrow><mrow><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>。<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>P</mi><mrow><mrow><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>和<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>q</mi><mrow><mrow><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>按本规范<a href="#id4.3.1">第4.3.1条</a>的相关规定取值；应考虑多车道的影响，横向车道布载系数应按本规范<a href="#id4.3.1">第4.3.1条</a>的相关规定计算。</li>   
+ <li> 疲劳荷载计算模型Ⅱ采用双车模型，两辆模型车轴距与轴重相同，其单车的轴重与轴距布置如<a href="#fig4.3.7.1">图4.3.7-1</a>所示。计算加载时，两模型车的中心距不得小于40 m。</li>   
+ </ol>
+ <div align="center"><img id="fig4.3.7.1" src="./_static/fig/4.3.7.1.png" alt="Picture" width="600px"></div>
+  <p style="color: dimgray;text-align: center;">图 4.3.7-1 疲劳荷载计算模型Ⅱ(尺寸单位：m)</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.3.7.1'));</script>
+   <ol start="3">
+ <li> 疲劳荷载计算模型Ⅲ采用单车模型，模型车轴载及分布规定如<a href="#fig4.3.7.2">图4.3.7-2</a>所示。</li>   
+ <li> 构件和连接不满足疲劳荷载计算模型I验算要求时，应按模型Ⅱ验算。</li> 
+ <li> 面系构件的疲劳验算应采用疲劳荷载计算模型Ⅲ</li>   
+ </ol>
+ <div align="center"><img id="fig4.3.7.2" src="./_static/fig/4.3.7.2.png" alt="Picture" width="600px"></div>
+  <p style="color: dimgray;text-align: center;">图 4.3.7-2 疲劳荷载计算模型Ⅲ(尺寸单位；m)</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.3.7.2'));</script>
+
+ <p style="text-align:justify"><a href="#id4.3.8"> 4.3.8</a> <span id="id4.3.8"> 风荷载标准值应按现行《公路桥梁抗风设计规范》(JTG/T D60-01)的规定计算。</span></p>
+ <p style="text-align:justify"><a href="#id4.3.9"> 4.3.9</a> <span id="id4.3.9"> 作用在在桥墩上的流水压力标准值可按下式计算：</span></p> 
+
+ <p style="text-align:justify;text-indent:2em;" > 流水压力合力的着力点，假定在设计水位线以下0.3倍水深处。</p>
+  <table id="biaoge" style="font-family:times new roman">
+
+   <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.9">表4.3.9 桥墩形状系数<i>K</i></b></caption>	
+              
+   <tr>
+   <td  align="center" id="dhbg" width="225px">桥墩形状</td>
+   <td  align="center" id="dhbg" width="225px"><i>K</i></td>
+   <td  align="center" id="dhbg" width="225px">桥墩形状</td>
+   <td  align="center" id="dhbg" width="225px"><i>K</i></td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >方形桥取</td>
+   <td align="center" id="dhbg" >1.5</td>
+   <td align="center" id="dhbg" >尖端形桥墩</td>
+   <td align="center" id="dhbg" >0.7</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >矩形桥玖(长边与水流平行)</td>
+   <td align="center" id="dhbg" >1.3</td>
+   <td align="center" id="dhbg" >圆端形桥墩</td>
+   <td align="center" id="dhbg" >0.6</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >圆形桥墩</td>
+   <td align="center" id="dhbg" >0.8</td>
+   <td align="center" id="dhbg" >-</td>
+   <td align="center" id="dhbg" >-</td>
+   </tr>
+   </table>
+ <p><font size="2"> </font></p> 
+
+ <p style="text-align:justify"><a href="#id4.3.10"> 4.3.10</a> <span id="id4.3.10"> 位于外海、海湾、海峡的桥梁结构，下部结构设计必要时应考虑波浪力的作用影响。宜开展专题研究确定波浪力的大小。</span></p>
+ <p style="text-align:justify"><a href="#id4.3.11"> 4.3.11</a> <span id="id4.3.11"> 具有竖向前棱的桥墩，冰压力可按下列规定取用：</span></p> 
+
+ <p style="text-align:justify;text-indent:2em;" > 挡土墙的计算长度<i>B</i>(m)可按下列公式计算，但不应超过挡土墙分段长度：</p>
+ <ol>
+ <li> 冰对桩或墩产生的冰压力标准值可按下式计算：</li>
+ </ol>
+
+$$F_{\\mathrm{i} }=mC_{\\mathrm{t}}btR_{\\mathrm{ik} }\\tag{4.3.11-1}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">i</mi></mrow></mrow></msub></math></td>
+ <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 冰压力标准值(kN);</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>m</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">桩或墩迎冰面形状系数，可按<a href="#B4.3.11.1">表4.3.11-1</a> 取用；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right' ><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub></math></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">冰温系数，可按<a href="#B4.3.11.2">表4.3.11-2</a> 取用</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>b</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">桩或墩迎冰面投影宽度(m);</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>t</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">计算冰厚(m),可取实际调查的最大冰厚或开河期堆积冰厚；</td>
+ </tr>  
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>R</mi><mrow><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub></math></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">冰的抗压强度标准值(kN/m<sup>2</sup>),可取当地冰温0℃时的冰抗压强度；当缺乏实测资料时，对海冰可取<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>R</mi><mrow><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub><mo>=</mo><mn>750</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">N</mi><mrow><mo>/</mo></mrow><msup><mi mathvariant="normal">m</mi><mrow><mn>2</mn></mrow></msup></mrow></math>；对河冰，流冰开始时<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>R</mi><mrow><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub><mo>=</mo><mn>750</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">N</mi><mrow><mo>/</mo></mrow><msup><mi mathvariant="normal">m</mi><mrow><mn>2</mn></mrow></msup></mrow></math>，最高流冰水位时可取<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>R</mi><mrow><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub><mo>=</mo><mn>450</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">N</mi><mrow><mo>/</mo></mrow><msup><mi mathvariant="normal">m</mi><mrow><mn>2</mn></mrow></msup></mrow></math>。</td>
+ </tr>     
+ </table>  
+ <p></p>
+
+ <table id="biaoge" style="font-family:times new roman">
+
+   <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.11.1">表4.3.11-1 桩或墩迎冰面形状系数 m</b></caption>	
+              
+   <tr>
+   <td  align="center" id="dhbg" width="200px" rowspan="2">项目</td>
+   <td  align="center" id="dhbg" width="100px" owspan="2">质量要求</td>
+   <td  align="center" id="dhbg" width="100px" owspan="2">检验方法</td>
+   <td  align="center" id="dhbg" colspan="5">项目</td>
+   <!-- <td></td> --> 
+   <!-- <td></td> --> 
+   <!-- <td></td> --> 
+   <!-- <td></td> --> 
+   <tr>
+   <tr>
+   <!-- <td></td> --> 
+   <!-- <td></td> --> 
+   <!-- <td></td> --> 
+   <td  align="center" id="dhbg" width="100px">45°</td>
+   <td  align="center" id="dhbg" width="100px">60°</td>
+   <td  align="center" id="dhbg" width="100px">75°</td>
+   <td  align="center" id="dhbg" width="100px">90°</td>
+   <td  align="center" id="dhbg" width="100px">120°</td>
+   <tr>
+   <tr>
+   <td align="center" id="dhbg">m</td>
+   <td align="center" id="dhbg">1.00</td>
+   <td align="center" id="dhbg">0.90</td>
+   <td align="center" id="dhbg">0.54</td>
+   <td align="center" id="dhbg">0.59</td>
+   <td align="center" id="dhbg">0.64</td>
+   <td align="center" id="dhbg">0.69</td>
+   <td align="center" id="dhbg">0.77</td>
+   </tr>
+   </table>
+ <p><font size="2"> </font></p>
+
+ <table id="biaoge" style="font-family:times new roman">
+
+   <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.11.2">表4.3.11-2 冰温系数<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub></math></b></caption>	
+              
+   <tr>
+   <td  align="center" id="dhbg" width="300px">项目</td>
+   <td  align="center" id="dhbg" width="300px">质量要求</td>
+   <td  align="center" id="dhbg" width="300px">检验方法</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg">冰温(℃)</td>
+   <td align="center" id="dhbg">0</td>
+   <td align="center" id="dhbg">-10及以下</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow></msub></math></td>
+   <td align="center" id="dhbg">1.0</td>
+   <td align="left" id="dhbg">2.0</td>
+   </tr>
+   </table>
+ <p><font size="2">注：1.表列冰温系数可直线内插。<br/>
+ &emsp;&emsp;&nbsp; 2.对海冰，冰温取结冰期最低冰温；对河冰，取解冻期最低冰温。</font></p>
+ <p style="text-align:justify;text-indent:2em;" > 1)当冰块流向桥轴线的角度<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>φ</mi><mo>⩽</mo><msup><mn>80</mn><mrow><mo>∘</mo></mrow></msup></math>时，桥墩竖向边缘的冰荷载应乘以<math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>sin</mi><mo data-mjx-texclass="NONE">⁡</mo><mi>φ</mi></math>予以折减。<br/> &emsp;&emsp;&nbsp;&nbsp;2)冰压力合力应作用在计算结冰水位以下0.3 倍冰厚处。</p>
+ <ol start="2">
+ <li>当流冰范围内桥墩有倾斜表面时，冰压力应分解为水平分力和竖向分力。</li>
+ </ol>
+
+$$水平分力\\hspace{1cm}F_{\\mathrm{xi} }=m_{0}C_{\\mathrm{t} }R_{\\mathrm{bk} }t^{2}\\tan\\beta \\tag{4.3.11-2}$$
+$$竖向分力\\hspace{1cm} F_{\\mathrm{zi} }=F_{\\mathrm{xi} }/\\tan\\beta \\hspace{1.5cm}\\tag{4.3.11-3}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">x</mi><mi mathvariant="normal">i</mi></mrow></mrow></msub></math></td>
+ <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 冰压力的水平分力(kN);</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>F</mi><mrow><mrow><mi mathvariant="normal">z</mi><mi mathvariant="normal">i</mi></mrow></mrow></msub></math></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">冰压力的垂直分力(kN);</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right' ><i>β</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">桥墩倾斜的棱边与水平线的夹角(°);</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>R</mi><mrow><mrow><mi mathvariant="normal">b</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub></math></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">冰的抗弯强度标准值(kN/m<sup>2</sup>)，取<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>R</mi><mrow><mrow><mi mathvariant="normal">b</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub><mo>=</mo><mn>0.7</mn><msub><mi>R</mi><mrow><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub></math>;</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>m</mi><mrow><mn>0</mn></mrow></msub></math></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">系数，<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>m</mi><mrow><mn>0</mn></mrow></msub><mo>=</mo><mn>0.2</mn><mi>b</mi><mrow><mo>/</mo></mrow><mi>t</mi></math>，但不小于1.0。</td>
+ </tr>  
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>R</mi><mrow><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub></math></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">冰的抗压强度标准值(kN/m<sup>2</sup>),可取当地冰温0℃时的冰抗压强度；当缺乏实测资料时，对海冰可取<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>R</mi><mrow><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub><mo>=</mo><mn>750</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">N</mi><mrow><mo>/</mo></mrow><msup><mi mathvariant="normal">m</mi><mrow><mn>2</mn></mrow></msup></mrow></math>；对河冰，流冰开始时<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>R</mi><mrow><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub><mo>=</mo><mn>750</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">N</mi><mrow><mo>/</mo></mrow><msup><mi mathvariant="normal">m</mi><mrow><mn>2</mn></mrow></msup></mrow></math>，最高流冰水位时可取<math xmlns="http://www.w3.org/1998/Math/MathML" ><msub><mi>R</mi><mrow><mrow><mi mathvariant="normal">i</mi><mi mathvariant="normal">k</mi></mrow></mrow></msub><mo>=</mo><mn>450</mn><mtext>&nbsp;</mtext><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">N</mi><mrow><mo>/</mo></mrow><msup><mi mathvariant="normal">m</mi><mrow><mn>2</mn></mrow></msup></mrow></math>。</td>
+ </tr>     
+ </table>  
+ <p></p>
+ <ol start="3">
+ <li>建筑物受冰作用的部位宜采用实体结构。对于具有强烈流冰的河流中的桥墩、柱，其迎冰面宜做成圆弧形、多边形或尖角，并做成3:1～10:1(竖：横)的斜度，在受冰作用的部位宜缩小其迎冰面投影宽度。</li>
+ <li>对流冰期的设计高水位以上0.5 m到设计低水位以下1.0 m 的部位宜采取抗冻性混凝土或花岗岩镶面或包钢板等防护措施。同时，对建筑物附近的冰体采取适宜的使冰体减小对结构物作用力的措施。</li>
+ </ol>
+
+ <p style="text-align:justify"><a href="#id4.3.12"> 4.3.12</a> <span id="id4.3.12"> 计算温度作用时的材料线膨胀系数及作用标准值可按下列规定取用：</span></p> 
+ <ol >
+ <li> 桥梁结构当要考虑温度作用时，应根据当地具体情况、结构物使用的材料和施工条件等因素计算由温度作用引起的结构效应。各种结构的线膨胀系数规定见<a href="#B4.3.12.1">表4.3.12-1</a>。</li>
+ </ol>
+ <table id="biaoge" style="font-family:times new roman">
+
+   <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.12.1">表4.3.12-1 线膨胀系数</b></caption>	
+              
+   <tr>
+   <td  align="center" id="dhbg" width="500px" >结构种类</td>
+   <td  align="center" id="dhbg" width="400px" >线膨胀系数(1/℃)</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >钢结构</td>
+   <td align="center" id="dhbg" >0.000 012</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >混凝土和钢筋混凝土及预应力混凝土结构</td>
+   <td align="center" id="dhbg" >0.000 010</td>
+   </tr>   
+   <tr>
+   <td align="center" id="dhbg">混凝土预制块砌体</td>
+   <td align="center" id="dhbg">0.000 009</td>
+	</tr>
+   <tr>
+   <td align="center" id="dhbg">石砌体</td>
+   <td align="center" id="dhbg">0.000 008</td>
+   </tr>   
+   </table>
+ <p><font size="2">  </font></p> 
+ <ol start="2">
+ <li> 计算桥梁结构因均匀温度作用引起的外加变形或约束变形时，应从受到约束时的结构温度开始，考虑最高和最低有效温度的作用效应。当缺乏实际调查资料时，公路混凝土结构和钢结构的最高和最低有效温度标准值可按<a href="#B4.3.12.2">表4.3.12-2</a>取用。</li>
+ </ol>
+ <table id="biaoge" style="font-family:times new roman">
+
+   <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.12.2">表4.3.12-2 公路桥梁结构的有效温度标准值(℃)</b></caption>	
+              
+   <tr>
+   <td  align="center" id="dhbg" width="300px" rowspan="2">结构种类</td>
+   <td  align="center" id="dhbg" colspan="2">钢桥面板钢桥</td>
+   <!-- <td></td> --> 
+   <td  align="center" id="dhbg" colspan="2">混凝土桥面板钢桥</td>
+   <!-- <td></td> --> 
+   <td  align="center" id="dhbg" colspan="2">混凝土、石桥</td>
+   <!-- <td></td> --> 
+   </tr>
+   <tr>
+   <!-- <td></td> --> 
+   <td  align="center" id="dhbg" width="100px">最高</td>
+   <td  align="center" id="dhbg" width="100px">最低</td>
+   <td  align="center" id="dhbg" width="100px">最高</td>
+   <td  align="center" id="dhbg" width="100px">最低</td>
+   <td  align="center" id="dhbg" width="100px">最高</td>
+   <td  align="center" id="dhbg" width="100px">最低</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >严寒地区</td>
+   <td align="center" id="dhbg" >46</td>
+   <td align="center" id="dhbg" >-43</td>
+   <td align="center" id="dhbg" >39</td>
+   <td align="center" id="dhbg" >-32</td>
+   <td align="center" id="dhbg" >34</td>
+   <td align="center" id="dhbg" >-23</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >寒冷地区</td>
+   <td align="center" id="dhbg" >46</td>
+   <td align="center" id="dhbg" >-21</td>
+   <td align="center" id="dhbg" >39</td>
+   <td align="center" id="dhbg" >-15</td>
+   <td align="center" id="dhbg" >34</td>
+   <td align="center" id="dhbg" >-10</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >温热地区</td>
+   <td align="center" id="dhbg" >46</td>
+   <td align="center" id="dhbg" >-（-3）</td>
+   <td align="center" id="dhbg" >39</td>
+   <td align="center" id="dhbg" >-6（-1）</td>
+   <td align="center" id="dhbg" >34</td>
+   <td align="center" id="dhbg" >-3（0）</td>
+   </tr>
+   </table>
+ <p><font size="2"> 注：1、全国气候分区见<a href="https://jtg-d60.readthedocs.io/zh/latest/FLA.html">附录A</a>。<br/>
+ &emsp;&emsp;&nbsp;&nbsp;2、表中括弧内数值适用于昆明、南宜.广州、福州地区。</font></p> 
+
+ <ol start="3">
+ <li> 计算桥梁结构由于竖向温度梯度引起的效应时，可采用<a href="#fig4.3.12">图4.3.12</a>所示的竖向温度梯度曲线，其桥面板表面的最高温度T<sub>1</sub>规定见<a href="#B4.3.12.3">表4.3.12-3</a>。</li>
+ </ol>
+
+ <div align="center"><img id="fig4.3.12" src="./_static/fig/4.3.12.png" alt="Picture" width="200px"></div>
+  <p style="color: dimgray;text-align: center;">图 4.3.12 竖向梯度温度(尺寸单位：mm)<br/><font size="2"> A-混凝土结构当梁高H小于400 mm时，A=H-100(mm)；梁高1大于或等于400 mm时，A=300 mm；带混凝土桥面板的钢结构A=300 mm；1-混凝土桥面板的厚度(mm)</font></p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('fig4.3.12'));</script>
+ <table id="biaoge" style="font-family:times new roman">
+
+   <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.12.3">表4.3.12-3 竖向日照正温差计算的温度基数</b></caption>	
+              
+   <tr>
+   <td  align="center" id="dhbg" width="300px">结构类型</td>
+   <td  align="center" id="dhbg" width="300px"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>T</mi><mrow><mn>1</mn></mrow></msub></math>（℃）</td>
+   <td  align="center" id="dhbg" width="300px"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>T</mi><mrow><mn>2</mn></mrow></msub></math>（℃）</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg">水泥混凝土铺装</td>
+   <td align="center" id="dhbg">25</td>
+   <td align="center" id="dhbg" >6.7</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg">50 mm沥青混凝土铺装层</td>
+   <td align="center" id="dhbg">20</td>
+   <td align="center" id="dhbg" >6.7</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg">100 mm 沥青混凝土铺装层</td>
+   <td align="center" id="dhbg">14</td>
+   <td align="center" id="dhbg" >5.5</td>
+   </tr>
+	</table>
+ <p><font size="2"> </font></p>  
+
+ <p style="text-align:justify;text-indent:2em;" > 混凝土上部结构和带混凝土桥面板的钢结构的竖向日照反温差为正温差乘以-0.5。</p>
+
+ <ol start="4">
+ <li>对无悬臂的宽幅箱梁，宜考虑横向温度梯度引起的效应。</li>
+ <li>计算圬工拱桥考虑徐变影响引起的温差作用效应时，计算的温差效应应乘以折减系数0.7。</li>
+ <li>用沥青混凝土铺装的混凝土桥面板桥梁必要时应考虑施工阶段沥青摊铺引起的温度影响。</li> 
+ </ol>
+ <p style="text-align:justify"><a href="#id4.3.13"> 4.3.13</a> <span id="id4.3.13"> 座摩阻力标准值可按下式计算：</span></p> 
+
+$$F=\\mu W\\tag{4.3.13}$$
+ 
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>W</mi></math></td>
+ <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 作用于活动支座上由上部结构重力产生的效应；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><math xmlns="http://www.w3.org/1998/Math/MathML" ><mi>μ</mi></math></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">支座的摩擦系数，宜采用实测数据，无实测数据时可按<a href="#B4.3.13">表4.3.13</a>取用。</td>
+ </tr>
+ </table>  
+ <p></p>
+ <table id="biaoge" style="font-family:times new roman">
+
+   <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.13">表4.3.13 支座摩擦系数</b></caption>	
+              
+   <tr>
+   <td  align="center" id="dhbg"  colspan="2">结构类型</td>
+   <!-- <td></td> --> 
+   <td  align="center" id="dhbg" width="500px">支座摩擦系数<i>μ</i></td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" colspan="2">滚动支座或撑动支座</td>
+   <!-- <td></td> --> 
+   <td align="center" id="dhbg" >0.05</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" width="100px" rowspan="4">板式橡胶支座</td>
+   <td align="center" id="dhbg" width="300px" >支座与混凝上面接触</td>
+   <td align="center" id="dhbg" >0.30</td>
+   </tr>
+   <tr>
+   <!-- <td></td> --> 
+   <td align="center" id="dhbg">支座与钢板接触</td>
+   <td align="center" id="dhbg" >0.20</td>
+   </tr>
+   <tr>
+   <!-- <td></td> --> 
+   <td align="center" id="dhbg" rowspan="2">聚四氟乙烯板与不秀钢板接触</td>
+   <td align="left"  id="dhbg" >0.06(加5201硅脂润滑后；温度低于-25℃时为0.078)</td>
+   </tr>
+   <tr>
+   <!-- <td></td> --> 
+   <!-- <td></td> --> 
+   <td align="left"  id="dhbg" >0.12(不加 5201硅脂润滑时；温度低于-25℃时为0.156)</td>
+   </tr>
+   <tr>
+   <td  align="center" id="dhbg"  colspan="2" rowspan="2">盆式支座</td>
+   <!-- <td></td> --> 
+   <td  align="left"  id="dhbg" >加5201硅脂润滑后，常温型活动支唐孪擦系数不大于0.03(支座适用温度为-25~+60℃)</td>
+   </tr>
+   <tr>
+   <!-- <td></td> --> 
+   <!-- <td></td> --> 
+   <td  align="left"  id="dhbg" >加5201 硅脂润滑后，耐寒型活动支座摩擦系数不大于0.06(支座适用温度为-40~+60℃)</td>
+   </tr>
+   <tr>
+   <td  align="center" id="dhbg"  colspan="2" rowspan="2">球型支座</td>
+   <!-- <td></td> --> 
+   <td  align="left" id="dhbg" >加5201 硅脂润滑后，活动支座摩擦系数不大于0.03(支座适用温度为-2560℃时)</td>
+   </tr>
+   <tr>
+   <!-- <td></td> --> 
+   <!-- <td></td> --> 
+   <td  align="left" id="dhbg" >加5201硅脂润游后，活动支座摩擦系数不大于0.05(支座适用温度为-40～+60℃时)</td>
+   </tr>   
+	</table>
+ <p><font size="2"> </font></p>  
+
+4.4 偶然作用
+-----------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id4.4.1"> 4.4.1</a> <span id="id4.4.1"> 航水域中的桥梁墩台，设计时应考虑船舶的撞击作用，其撞击作用设计值可按下列规定采用：</span></p>
+ <ol>
+ <li> 船舶的撞击作用设计值宜按专题研究确定。</li>
+ <li> 四至七级内河航道当缺乏实际调查资料时，船舶撞击作用的设计值可按<a href="#B4.4.1.1">表4.4.1-1</a>取值，航道内的钢筋混凝土桩墩，顺桥向撞击作用可按<a href="#B4.4.1.1">表4.4.1-1</a>所列数值的50%值。</li> 
+ </ol>
+ <table id="biaoge" style="font-family:times new roman">
+
+   <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.4.1.1">表4.4.1-1 内河船舶撞击作用设计值</b></caption>	
+              
+   <tr>
+   <td  align="center" id="dhbg" width="225px">内河航道等级</td>
+   <td  align="center" id="dhbg" width="225px">船舶吨级 DWT(t)</td>
+   <td  align="center" id="dhbg" width="225px">横桥向撞击作用(kN)</td>
+   <td  align="center" id="dhbg" width="225px">顺桥向撞击作用(kN)</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >四</td>
+   <td align="center" id="dhbg" >500</td>
+   <td align="center" id="dhbg" >550</td>
+   <td align="center" id="dhbg" >450</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >五</td>
+   <td align="center" id="dhbg" >300</td>
+   <td align="center" id="dhbg" >400</td>
+   <td align="center" id="dhbg" >350</td>
+   </tr>   
+   <tr>
+   <td align="center" id="dhbg">六</td>
+   <td align="center" id="dhbg">100</td>
+   <td align="center" id="dhbg">250</td>
+   <td align="center" id="dhbg">200</td>
+	</tr>
+   <tr>
+   <td align="center" id="dhbg">七</td>
+   <td align="center" id="dhbg">50</td>
+   <td align="center" id="dhbg">150</td>
+   <td align="center" id="dhbg">125</td>
+	</tr>   
+	</table>
+ <p><font size="2"> </font></p> 
+ <ol start="3">
+ <li> 当缺乏实际调查资料时，海轮撞击作用的设计值可按<a href="#B4.4.1.2">表4.4.1-2</a>取值。</li>
+ </ol>
+ <table id="biaoge" style="font-family:times new roman">
+
+   <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.4.1.2">表4.4.1-2 海轮撞击作用设计值</b></caption>	
+              
+   <tr>
+   <td  align="center" id="dhbg" width="180px">船舶吨级 DWT(t)</td>
+   <td  align="center" id="dhbg" width="90px">3 000</td>
+   <td  align="center" id="dhbg" width="90px">5 000</td>
+   <td  align="center" id="dhbg" width="90px">7 500</td>
+   <td  align="center" id="dhbg" width="90px">10 000</td>
+   <td  align="center" id="dhbg" width="90px">20 000</td>
+   <td  align="center" id="dhbg" width="90px">30 000</td>
+   <td  align="center" id="dhbg" width="90px">40 000</td>
+   <td  align="center" id="dhbg" width="90px">50 000</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >横桥向擅击作用(kN)</td>
+   <td align="center" id="dhbg" >19 600</td>
+   <td align="center" id="dhbg" >25 400</td>
+   <td align="center" id="dhbg" >31 000</td>
+   <td align="center" id="dhbg" >35 800</td>
+   <td align="center" id="dhbg" >50 700</td>
+   <td align="center" id="dhbg" >62 100</td>
+   <td align="center" id="dhbg" >71 700</td>
+   <td align="center" id="dhbg" >80 200</td>
+   </tr>
+   <tr>
+   <td align="center" id="dhbg" >顺桥向擅击作用(kN)</td>
+   <td align="center" id="dhbg" >9 800</td>
+   <td align="center" id="dhbg" >12 700</td>
+   <td align="center" id="dhbg" >15 500</td>
+   <td align="center" id="dhbg" >17 900</td>
+   <td align="center" id="dhbg" >25 300</td>
+   <td align="center" id="dhbg" >31 050</td>
+   <td align="center" id="dhbg" >35 850</td>
+   <td align="center" id="dhbg" >40 100</td>
+   </tr>   
+	</table>
+ <p><font size="2"> </font></p> 
+
+ <ol start="4">
+ <li> 规划航道内可能遭受大型船舶撞击作用的桥墩，应根据桥墩的自身抗撞击能力、桥墩的位置和外形、水流流速、水位变化、通航船舶类型和碰撞速度等因素作桥墩防撞设施的设计。当设有与墩台分开的防撞击的防护结构时，桥墩可不计船舶的撞击作用。</li>
+ <li> 内河船舶的撞击作用点，假定为计算通航水位线以上2 m的桥墩宽度或长度的中点。海轮船舶撞击作用点需视实际情况面定。</li>
+ </ol> 
+
+ <p style="text-align:justify"><a href="#id4.4.2"> 4.4.2</a> <span id="id4.4.2"> 有漂流物的水域中的桥梁墩台，设计时应考虑漂流物的撞击作用，其横桥向撞击力设计值可按下式计算，漂流物的撞击作用点假定在计算通航水位线上桥墩宽度的中点：</span></p>
+
+$$F=\\dfrac{W_{v}}{gT}\\tag{4.4.2}$$
+
+.. raw:: html
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs"><i>W</i></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">漂流物重力(kN),应根据河流中漂流物情况，按实际调查确定；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs"><i>c</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">水流速度(m/s);</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs"><i>T</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">撞击时间(s),应根据实际资料估计，在无实际资料时，可用1s;</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs"><i>g</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">重力加速度，<i>g</i>=9.81m/s<sup>2</sup>。</td>
+ </tr>
+ </table>
+ <p></p>
+
+ <p style="text-align:justify"><a href="#id4.4.3"> 4.4.3</a> <span id="id4.4.3"> 桥梁结构必要时可考虑汽车的撞击作用。汽车撞击力设计值在车辆行驶方向应取1000 kN，在车辆行驶垂直方向应取500 kN，两个方向的撞击力不同时考虑。撞击力应作用于行车道以上1.2 m处，直接分布于撞击涉及的构件上。</span></p>
+
+ <p style="text-align:justify;text-indent:2em;" > 对设有防撞设施的结构构件，可视防撞设施的防撞能力，对汽车撞击力设计值予以折减，但折减后的汽车撞击力设计值不应低于上述规定值的1/6。</p>
+ <p style="text-align:justify"><a href="#id4.4.4"> 4.4.4</a> <span id="id4.4.4"> 公路桥梁护栏应按现行《公路交通安全设施设计规范》(JTG D81)的有关规定执行。</span></p>
+
+4.5 地震作用
+-----------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id4.5.1"> 4.5.1</a> <span id="id4.5.1"> 公路桥梁地震作用应符合现行《公路工程抗震规范》(JTG B02)和《公路桥梁抗震设计细则》(JTG/T B02-01)的规定。</span></p>
+
+
+
+
+
+:math:`\ `

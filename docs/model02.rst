@@ -1,0 +1,234 @@
+乌江桥链接
+========================
+
+.. raw:: html
+
+ <p><a href="#id111"> 1.1.1</a> <span id="id111">冻融劣化耐久性检测方法应符合附录D的有关规定。混凝土碳化引起钢筋锈蚀劣化耐久性评估应包括混凝土结构外观劣化度评估和结构使用年限预测。外观劣化度评估应按第4.5.2条的规定执行。</span></p>
+
+
+.. raw:: html
+
+   <!DOCTYPE html>
+                    <html>
+                      <head>
+                        <title>Dialog</title>
+                        <style>
+                          /* Modal Styles */
+                          .modal-overlay {
+                            position: fixed;
+                            left: 0;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+                            background-color: rgba(0, 0, 0, 0.5);
+                            display: none;
+                            align-items: center;
+                            justify-content: center;
+                            z-index: 9999;
+                          }
+
+                          .modal-content {
+                            width: 800px;
+                            height: 600px;
+                            background-color: white;
+                            border-radius: 5px;
+                            padding: 20px;
+                          }
+                          .model-content {
+                            width: 1100px;
+                            height: 800px;
+                            background-color: white;
+                            border-radius: 5px;
+                            padding: 20px;
+                          }
+                          .modal-close {
+                            position: absolute;
+                            top: 10px;
+                            right: 10px;
+                            cursor: pointer;
+                          }
+                        </style>
+                      </head>
+                      <html>
+                        <head>
+                          <meta charset="utf-8" />
+                          <title>My first three.js app</title>
+                          <style>
+                            body {
+                              margin: 0;
+                            }
+                          </style>
+                          <link
+                            rel="stylesheet"
+                            type="text/css"
+                            href="./_static/index.css"
+                          />
+                        </head>
+                        <body>
+                          <button class="openBtn">桥梁模型</button>
+                          <div class="model" style="display: none">
+                            <button class="openBtn">☩</button>
+                          </div>
+                          <div class="box">
+                            <div class="model1">
+                              <button class="closeBtn">
+                                <p>x</p>
+                              </button>
+                            </div>
+                          </div>
+                          <script type="importmap">
+                            {
+                              "imports": {
+                                "three": "https://unpkg.com/three/build/three.module.js",
+                                "three/controls/": "https://unpkg.com/three/examples/jsm/controls/",
+                                "three/loaders/": "https://unpkg.com/three/examples/jsm/loaders/"
+                              }
+                            }
+                          </script>
+                          <script type="module">
+                            import * as THREE from "three";
+                            // 导入控制器
+                            import { OrbitControls } from "three/controls/OrbitControls.js";
+                            // 导入gltf载入库
+                            import { GLTFLoader } from "three/loaders/GLTFLoader.js";
+
+                            // 尺寸设置
+                            // const width = window.innerWidth * 0.4;
+                            // const height = window.innerHeight * 0.6;
+                            const width = window.innerWidth;
+                            const height = window.innerHeight;
+
+                            // 初始化场景
+                            const scene = new THREE.Scene();
+
+                            // 初始化相机
+                            const camera = new THREE.PerspectiveCamera(
+                              80,
+                              width / height,
+                              0.1,
+                              2000
+                            );
+                            camera.position.set(-10, 30, 70); // 相机位置
+                            camera.aspect = width / height; // 更新摄像头宽高比例
+                            camera.updateProjectionMatrix(); // 更新摄像头投影矩阵
+
+                            scene.add(camera);
+
+                            // 初始化渲染器
+                            const renderer = new THREE.WebGLRenderer({
+                              // 设置抗锯齿
+                              antialias: true,
+                              //   对数深度缓冲区
+                              logarithmicDepthBuffer: true, // 防止渲染闪烁
+                            });
+                            renderer.outputEncoding = THREE.sRGBEncoding;
+                            renderer.setClearColor("rgba(243, 243, 243 ,1)", 1); // 渲染白色背景
+
+                            // 渲染器宽高
+                            renderer.setSize(width, height);
+
+                            // 监听屏幕大小修改配置
+                            let fullSize = false;
+                            window.addEventListener("resize", () => {
+                              if (fullSize) {
+                                camera.aspect = width / height;
+                                camera.updateProjectionMatrix();
+                                renderer.setSize(
+                                  window.innerWidth,
+                                  window.innerHeight
+                                );
+                              } else {
+                                camera.aspect = width / height;
+                                camera.updateProjectionMatrix();
+                                renderer.setSize(
+                                  window.innerWidth * 0.4,
+                                  window.innerHeight * 0.6
+                                );
+                              }
+                            });
+
+                            // 渲染器添加到页面
+                            // document.body.appendChild(renderer.domElement);
+                            const model =
+                              document.getElementsByClassName("model")[0];
+                            model.appendChild(renderer.domElement);
+
+                            // 初始化控制器
+                            const controls = new OrbitControls(
+                              camera,
+                              renderer.domElement
+                            );
+                            controls.autoRotate = true;
+
+                            // 渲染函数
+                            function render() {
+                              renderer.render(scene, camera);
+                              requestAnimationFrame(render);
+                              controls.update();
+                            }
+                            render();
+
+                            // 添加平行光
+                            const light = new THREE.DirectionalLight(
+                              0xffffff,
+                              1
+                            );
+                            light.position.set(50, 100, 50);
+                            scene.add(light);
+
+                            // 添加环境光
+                            const envLight = new THREE.SpotLight(0xffffff, 1);
+                            envLight.position.set(-50, 100, -50);
+                            scene.add(envLight);
+
+                            // 添加桥梁模型
+                            const loader = new GLTFLoader();
+                            loader.load("./_static/wujiang.glb", (gltf) => {
+                              gltf.scene.position.set(0, 20, 0);
+                              scene.add(gltf.scene);
+                            });
+
+                            // 切换模型尺寸
+                            const model1 =
+                              document.getElementsByClassName("model1")[0];
+                            const openBtn =
+                              document.getElementsByClassName("openBtn")[0];
+
+                            openBtn.addEventListener("click", () => {
+                              renderer.setSize(
+                                window.innerWidth,
+                                window.innerHeight
+                              );
+                              camera.position.set(-10, 30, 100);
+                              model1.appendChild(renderer.domElement);
+                              box.style.display = "block";
+                              fullSize = true;
+                            });
+
+                            const closeBtn =
+                              document.getElementsByClassName("closeBtn")[0];
+                            const box =
+                              document.getElementsByClassName("box")[0];
+
+                            closeBtn.addEventListener("click", () => {
+                              renderer.setSize(
+                                window.innerWidth * 0.4,
+                                window.innerHeight * 0.6
+                              );
+                              model.appendChild(renderer.domElement);
+                              box.style.display = "none";
+                              fullSize = false;
+                            });
+                          </script>
+                        </body>
+                      </html>
+                    </html>
+
+
+.. raw:: html
+
+ <p></p>
+  
+ <p><a href="#id112"> 1.1.2</a> <span id="id112">冻融劣化耐久性检测方法应符合附录D的有关规定。混凝土碳化引起钢筋锈蚀劣化耐久性评估应包括混凝土结构外观劣化度评估和结构使用年限预测。外观劣化度评估应按第4.5.2条的规定执行。</span></p>
+
+
